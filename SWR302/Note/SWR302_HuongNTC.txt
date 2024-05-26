@@ -1,0 +1,62 @@
+SWR302_HuongNTC
+Enrolment Key: NJS1803
+Email: huongntc2@fe.edu.vn
+
+Ebook: Practice -> Agile SWE201c
+Software Requirements
+
+SWP391 -> SWR302  -> Business Analyst (BA) -> BrSE -> KR
+		  				   -> JS
+						   -> English
+       -> SWT301 -> Tester
+       -> DBI202
+       -> OOP
+       -> JAVA | C#
+
+EXAM - PE: 25%
+     - TE: 25%
+     - Progress: 25%
+     - Assignment: 25% - Capstone Project document
+
+SDLC: Software Development Life Cycle
+- Prototype + Features
+- DB
+
+Phases: 
+1. Reqs Analysis
+2. Design
+3. Development			Standard
+4. Testing
+5. Deployment
+6. Maintenance
+
+Methods: Agile, Waterfall/ V-model / Incremental Model / Spiral...
+
+Framework: Scrum
+Reqs
+
+Reqs -> Repeat until finish
+|---------|----------|----------|------|-------------|
+Reqs Analysis Design -> 80 - 90%		    Deployment
+
+Report:
+
+
+
+Chapter 4:
+Chia việc: canvas
+===================================================================================================
+13/05/2024
+SWR slot 3
+- requirement elicitation technique
+*) User Characteristic( đặc điểm người dùng): ai (Who), đặc điểm (character) - biết được cái đó mới có thể đào sâu vào user’s need
+Safe Staff / Customer / Admin / Accountant Staff
+Observation Come to staff's behavior works
+
+KHẢO SÁT AI SẼ LÀM
+MỤC TIÊU KHẢO SÁT
+CHỌN HÌNH THỨC KHẢO SÁT : ONLINE HOẶC PAPER
+LẬP ĐƯỢC CÁC CÂU HỎI CẦN KHẢO SÁT
+===================================================================================================
+20/05/2024
+

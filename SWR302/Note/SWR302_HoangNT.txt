@@ -1,0 +1,343 @@
+SOFTWARE REQUIREMENTS - REQUIREMENTS ENGINEERING
+NHẬP MÔN YÊU CẦU PHẦN MỀM
+LÀ 1 MÔN HỌC GIẢNG CHO BẠN NGHE VỀ CÁC KĨ THUẬT TÌM RA YÊU CẦU PHẦN MỀM (TÌM RA TÊN GỌI CỦA CÁC MÀN HÌNH CỦA CÁI APP SẼ LÀM
+CHO KHÁCH HÀNG)
+
+0. 3E 
+* ENGINE  -> ĐỘNG CƠ, RUN, CÓ BÁNH RĂNG
+* ENGINEER -> KĨ SƯ: CẤU HÌNH, ĐO ĐẠC, CÂN CHỈNH, ĐỘNG CƠ, THÔNG SỐ, THIẾT LẬP
+* ENGINEERING -> KĨ SƯ: CÔNG VIỆC CỦA GÃ KĨ SƯ MANG YẾU TỐ KĨ THUẬT: BƯỚC, CÔNG ĐOẠN
+
+* SOFTWARE ENGINEER: GÃ KĨ SƯ CHUYÊN LÀM VIỆC VỚI "ĐỘNG CƠ - APP - GỒM NHIỀU THÀNH PHẦN RUN CHUNG VỚI NHAU"
+* SOFTWARE ENGINEERING: CÔNG VIỆC GÃ NÀY MANG TÍNH CHÍNH XÁC NHỮNG THÔNG SỐ LẬP TRÌNH CÔNG VIỆC MANG YẾU TỐ KĨ THUẬT ĐỂ LÀM RA PHẦN MỀM
+
+  THÔNG SỐ LẬP TRÌNH: PASSWORD: 12 CHARS Ô NHẬP LIỆU ? PIXELS
+
+* REQUIREMENTS ENGINEERING: CÁC KĨ THUẬT, BƯỚC, CÔNG ĐOẠN, HOẠT ĐỘNG TÌM RA ĐC YÊU CẦU PHẦN MỀM LỜI HỨA PHẦN MỀM CÓ TÍNH NĂNG GÌ
+
+REQS ENGINEERING LÀ 1 PHẦN CỦA SOFTWARE ENGINEERING (KĨ THUẬT LÀM RA PHẦN MỀM)
+
+I. VÍ DỤ VỀ REQUIREMENTS (REQS)
+1. XÉT PHẦN MỀM QUẢN LÍ ĐÀO TẠO CỦA TRƯỜNG 3 CHỮ, TẠI THỜI ĐIỂM BẮT ĐẦU HỢP ĐỒNG VIẾT APP NÀY; CTY LÀM PHẦN MỀM NÀY ĐƯA RA NHỮNG REQS SAU, DỰA TRÊN QUÁ TRÌNH LÀM VIỆC VỚI TRƯỜNG 3 CHỮ 
+- APP CÓ TÍNH NĂNG / MÀN HÌNH XÁC THỰC - LOGIN BẰNG EMAIL CỦA TRƯỜNG (ĐƯA LÀ FPT.EDU.VN)
+- APP CÓ MÀN HÌNH CHO PHÉP SINH VIÊN XEM HỒ SƠ CÁ NHÂN, XEM BẢNG ĐIỂM TOÀN KHÓA, BẢNG ĐIỂM TỪNG KÌ
+- APP CÓ CHỨC NĂNG / MÀN HÌNH XEM TIN TỨC THÔNG BÁO TỪ PHÍA NHÀ TRƯỜNG
+- APP CÓ CHỨC NĂNG CHO PHÉP GIẢNG VIÊN GHI NHẬN THÔNG TIN CÓ MẶT CỦA SINH VIÊN TRONG MỖI BỮA HỌC (CHECK ATTENDANCE)
+
+2. XÉT PHẦN MỀM WEBSITE THEGIOIDIDONG.COM
+- APP CÓ TÍNH NĂNG, CHỨC NĂNG SHOW RA DANH SÁCH CÁC THIẾT BỊ ĐIỆN TỬ ĐANG BÁN THEO PHÂN NHÓM; ĐIỆN THOẠI | TABLET | LAPTOP | PHỤ KIỆN | ĐỒNG HỒ...
+- APP CÓ TÍNH NĂNG, MÀN HÌNH XEM CHI TIẾT 1 SẢN PHẨM THEO 2 MỨC: MỨC 1 NHỮNG INFO CƠ BẢN, MỨC 2 INFO CHI TIẾT CẤU HÌNH THÔNG SỐ CỦA SẢN PHẨM 
+- APP CÓ CHỨC NĂNG CHO PHÉP SALES MANAGER CẬP NHẬT ĐIỀU CHỈNH GIÁ BÁN CỦA 1 SẢN PHẨM (ĐIỆN THOẠI, LAPTOP)
+- APP CÓ CHỨC NĂNG MÀN HÌNH CHO PHÉP MODERATOR CẬP NHẬT CÁC CÂU TRẢ LỜI KHI KHÁCH HÀNG HỎI THÔNG TIN
+- APP CÓ TÍNH NĂNG THU NGÂN
+...
+
+3. APP QUẢN LÍ BỆNH VIỆN
+- APP CÓ CHỨC NĂNG TẠO MỚI HỒ SƠ BỆNH NHÂN TẠI QUẦY NHẬN BỆNH VÀ IN BILL KHÁM
+- APP CÓ CHỨC NĂNG CHO PHÉP BÁC SĨ KÊ ĐƠN THUỐC, XEM LỊCH SỬ ĐƠN THUỐC, RA THÊM Y LỆNH / CHỈ ĐỊNH XÉT NGHIỆM CHỤP CHIẾU
+REQS LÀ 1 MÀN HÌNH ĐẠT ĐC ĐIỀU GÌ ĐÓ (HỮU HÌNH HAY VÔ HÌNH).
+
+>>>>>>> CHỐT HẠ: YÊU CẦU PHẦN MỀM SẼ ỨNG VỚI 1 TÍNH NĂNG / CHỨC NĂNG, MÀN HÌNH VÀ GIÚP CHO USER (NGƯỜI XÀI) ĐẠT ĐC ĐIỀU GÌ ĐÓ, LÀM ĐC 1 ĐIỀU GÌ ĐÓ CHO CÔNG VIỆC CỦA HỌ (MÀ NẾU HOK CÓ APP VẪN PHẢI LÀM)
+
+===============================================================================
+BÀI THUYẾT TRÌNH SỐ 1:
+* THỜI GIAN: NGÀY 14/5/2024, 6 NHÓM 1 BUỔI.
+* CHUẨN BỊ: MỖI NHÓM 20 PHÚT TRỞ LẠI.
+* TUI SẼ ĐEM MÁY QUAY QUAY VIDEO.
+* SLIDE + SỰ PHÁ CÁCH ĐỂ THẤY ĐC CÁI TÂM CỦA NGƯỜI THUYẾT TRÌNH.
+* MỌI NGƯỜI PHẢI CÓ MẶT, PHẢI THUYẾT TRÌNH.
+- CHỌN 1 TRONG NHỮNG CÁI APP CÓ SẴN CỦA NHÀ F ĐỂ THUYẾT TRÌNH VỀ CÁC TÍNH NĂNG
+- APP DÙNG TRONG NỘI BỘ DOANH NGHIỆP NÀO ĐÓ (KHÓ!!)
+- APP DÙNG CHO CÁ NHÂN: MOMO CỦA BẠN, APP NGÂN HÀNG MÌNH DÙNG 
+================================================================================
+
+III. ĐỊNH NGHĨA SOFTWARE REQUIREMENTS (REQS)
+- REQ: LÀ 1 CÂU PHÁT BIỂU (TỪ PHÍA KHÁCH HÀNG HOẶC TỪ...) VỀ 1 TÍNH NĂNG CỦA PHẦN MỀM MÀ HỌ TRÔNG ĐỢI ĐỂ GIÚP CHO CÔNG VIỆC CỦA KHÁCH HÀNG
+       - a statement regarding to what the system must do to support for the customer/user's activities => FUNCTIONAL REQS
+													    Y/C CHỨC NĂNG
+	
+with the corresponding quality & attribute -> NON FUNCTIONAL REQS
+						Y/C PHI CHỨC NĂNG
+       
+LÀ 1 CÂU PHÁT BIỂU (TỪ PHÍA KHÁCH HÀNG HOẶC TỪ..) VỀ CÁI TRẢI NGHIỆM/ CẢM XÚC KHI CHUẨN BỊ CÓ PHẦN MỀM VÀ XÀI PHẦN MỀM SẼ LÀM
+       - App cần hỗ trợ đa dạng phương thức xác thực
+       - App cần chạy nhanh vổn định: mạng bình thường thì độ phản hồi là 3s trở lại
+       - App dễ sử dung, tông màu hài hòa
+       - App hỗ trợ đa nền tang, đa ngôn ngữ: Anh, Việt, Hoa,...
+
+MÁ DẶN: LÊN SÀI GÒN HỌC HÀNH NHA CON
+        
+	LÊN SÀI GÒN NHỚ HỌC TỐT NHA CON [MƠ HỒ]
+	LÊN SÀI GÒN NHỚ HỌC TỐT NHA CON:
+		TỐT: CẤM ĐỔI CHUYÊN NGHÀNH
+		     NOEL NĂM SAU RA TRƯỜNG, 2025
+		     TUYỆT ĐỐI KO ĐC RỚT MÔN NÀO TỪ SU24 -> NOEL 25 NĂM SAU
+		     ĐIỂM TB >= 8
+		MỆNH ĐỀ AND
+  			----------------------------
+IV. MỘT SỐ THUẬT NGỮ CẦN PHÂN BIỆT
+1. AS IS SYSTEM     VS   TO BE SYSTEM
+   (LEGACY SYSTEM)
+2. PROJECT           		VS  		PRODUCT
+3. PROJECT REQS      		VS   		PRODUCT REQS
+4. PROJECT MANAGER   		VS   		PRODUCT MANAGER
+5. BA (BUSINESS ANALYST) | PO (PRODUCT OWNER)    |  PRODUCT MANAGER | BrSE (Bridge Software Engineer)
+
+------------------------------------------------------------------------
+1. AS IS SYSTEM 			VS 			TO BE SYSTEM
+  (LEGACY SYSTEM)
+  HỆ THỐNG CŨ, HIỆN TRẠNG 					    HỆ THỐNG MỚI
+
+app cũ, cách khách hàng đang quản lí info,			 > HỆ THỐNG MỚI, APP MỚI SẼ XÂY DỰNG CHO KHÁCH HÀNG
+đang vận hành công việc
+- thẻ tích điểm đc xem là hệ thống cũ, hiện			 > APP TÍCH ĐIỂM!!!
+trạng quán đang quản lí KHTT					 	> PAIN:  MẤT THẺ, BẤT CÔNG CON DẤU
+- bộc lộ nhiều nhược điểm						         MẤT THÔNG TIN KHÁCH CHĂM CHỈ MUA
+
+BA: TÌM HIỂU HIỆN TRẠNG, CÁCH USER/KHÁCH HÀNG ĐANG LÀM 			         GỬI TIN K/MÃI, NOTI
+    TÌM RA NHƯỢC ĐIỂM  - PAIN POINT - NỖI ĐAU CỦA KHÁCH HÀNG            > GAIN:  TÍCH ĐIỂM DỰA TRÊN TIỀN MUA
+ĐỀ XUẤT GIẢI PHÁP FIX CÁI PAIN POINT ->						 LẦN ĐẦU MUA XIN PHONE
+GAIN: LÀM APP MỚI ĐẠT ĐC 1 ĐIỀU GÌ TỐT HƠN					 LẦN SAU, XIN PHONE TÍCH ĐIỂM
+      										 GỬI NOTI OKIE, THỐNG KÊ CUỐI NĂM OKIE, SINH NHẬT OKIE
+tồn kho, doanh thu, mặt hàng bán chạy, noti,...
+
+
+2. PROJECT				  VS                          PRODUCT
+--------------------------------------------------------------------------------> Time
+LÀM DỰ ÁN				ĐỂ CÓ				SẢN PHẨM
+LÀ QUÁ TRÌNH LÀM SẢN PHẨM 						SẢN PHẨM LÀ KẾT QUẢ CỦA QUÁ TRÌNH
+
+QUÁ TRÌNH								KẾT QUẢ
+QUÁ TRÌNH LÀM SẢN PHẨM							APP, SOFTWARE ĐC TẠO RA
+TIÊU TỐN:								NÓI VỀ SẢN PHẨM LÀ TA NÓI VỀ
+- THỜI GIAN								- TÍNH NĂNG, CHỨC NĂNG
+- TIỀN BẠC								- MÀN HÌNH
+- NHÂN LỰC								- FUNCTIONAL REQS / NON FUNCTIONAL REQS
+ĐỂ LÀM RA SẢN PHẨM
+
+GÃ PM - PROJECT MANAGER						        GÃ: BA, GÃ PO, GÃ PRODUCT MANAGER
+GÃ NÀY BÀN VỀ: 							      	CHỈ BÀN VỀ TÍNH NĂNG, REQS
+											USE CASE DIAGRAM, ERD, MÀN HÌNH (UI - I/O)
+- TIẾN ĐỘ LÀM CODE, LÀM APP
+- KICK MEMBER
+- TÍNH NĂNG CẦN CÁI VỚI K/H (CÙNG BA) ĐỂ NGHIỆM THU
+P/M LÀ 1 NGHỀ, 1 VỊ TRÍ TUYỂN DỤNG LUÔN!!!				BA, GÃ PO, GÃ PRODUCT MANAGER LÀ VỊ TRÍ TUYỂN DỤNG LUÔN  
+3. PROJECT REQS										VS. PRODUCT REQS
+		- REQS: ĐỀU LÀ CÂU PHÁT BIỂU LIÊN QUAN ĐẾN VIỆC LÀM RA CÁI APP		- CÂU PHÁT BIỂU MÔ TẢ TRỰC TIẾP TÍNH NĂNG, VỀ MÀN HÌNH, VỀ CHỨC NĂNG 											  CỦA APP, SẼ CUNG CẤP CHO KHÁCH HÀNG!!!! TRỌNG TÂM MÔN NÀY
+- PROJECT REQS LÀ NHỮNG CÂU PHÁT BIỂU
+DÍNH DÁNG ĐẾN NHỮNG THỨ THUỘC VỀ QUẢN LÍ DỰ ÁN, QUẢN LÍ DỰ ÁN TA CẦN QUAN TÂM ĐẾN:
+THỜI GIAN, TIỀN BẠC, NHÂN LỰC NGUỒN LỰC (TÀI CHÍNH VÀ TRANG THIẾT BỊ, MÁY MÓC)
+VÍ DỤ:											  VÍ DỤ:
+TUẦN NÀY YÊU CẦU MỌI NGƯỜI TĂNG CA							 - PHẦN MỀM HỖ TRỢ TÍNH NĂNG CRUD VOUCHER CHO SALES MANAGER
+THỨ 6 TUẦN NÀY PHẢI XONG TÍNH NĂNG CRUD
+--------------------------------------------------
+VOUCHER											 - APP CÓ TÍNH NĂNG TẠO BILL TRÊN MÁY IN DI ĐỘNG
+CẦN MUA NGAY, CHẬM NHẤT TUẦN SAU MÁY ĐỌC MÃ VẠCH					 - NHẬP ĐƠN HÀNG CÓ THỂ DÙNG BÀN PHÍM HOẶC SCAN BAR-CODE!
+SẢN PHẨM, MÁY IN BILL BỎ TÚI ĐỂ DEV BẮT ĐẦU CODE, THỬ 
+NGHIỆM TÍNH NĂNG TẠO MỚI ORDER VÀ IN BILL
+
+4. PROJECT MANAGER (PM)						VS 		PRODUCT MANAGER
+- GÃ NÀY QUẢN LÍ N VIỆC, 1 TEAM ĐỂ 						- GÃ NÀY CHỈ TẬP TRUNG VÀO PRODUCT REQS
+SAU 1 THỜI GIAN RA APP CHO K/H							- GÃ NÀY TẬP TRUNG VÀO MÔ TÃ CÁC MÀN HÌNH CỦA APP
+- CÂN ĐỐI TAM GIÁC ĐỀU									- USE CASE DIAGRAM, USER STORY
+QUẢN LÍ DỰ ÁN (GOLDEN TRIANGLE)								- FUNCTIONAL VÀ NON-FUNCTIONAL REQS
+	       (PROJECT MGT)								- UI (TÊN MÀN HÌNH + Ô NHẬP + NÚT BẤM KO BÀN MÀU SẮC)
+											- DƯỚI PRODUCT MANAGER LÀ PRODUCT OWNER
+- DƯỚI PM SẼ LÀ DEV TEAM (DEV, BA,
+QC / TESTER, DESIGNER,...)
+* EM MUỐN TRỞ THÀNH PM HỌC CHỨNG CHỈ					       PRODUCT MANAGER!!!
+HỌC CHỨNG CHỈ PMP CỦA HỌC VIỆN TỔ CHỨC						 PRODUCT OWNER - DƯỚI QUYỀN CÓ CHỨNG CHỈ PO, ĐI KÈN CHỨNG CHỈ SCRUM MASTER 
+										 (CÙNG THUỘC TEAM SCRUM / AGILE)
+										 HAY THI Ở: SCRUM.ORG
+PMI (NHIỀU LEVEL)
+- CUỐN GIÁO TRÌNH PMI BOK
+		(BODY OF KNOWLEDGE)
+		DÀN KHUNG KIẾN THỨC
+
+- THƯỜNG SẼ PHẢI ĐI LÀM 1 VÀI NĂM MỚI CHO HỌC VÀ THI.
+5. BA (BUSINESS ANALYST) | PO (PRODUCT OWNER) | PRODUCT MANAGER |
+   KO ĐC BỊA TÍNH NĂNG  
+   MÀ PHẢI ĐI (GẶP) KHÁCH HÀNG 		BỊA TÍNH NĂNG PHẦN MỀM !!!
+   HỎI REQS
+	BRSE (Bridge Software Engineer)
+	   ĐÓNG VAI PM + BA + DEV 1 CHÚT VÀ LÀM VIỆC VỚI KHÁCH NHẬT, HÀN
+		-> ĐẨY NGƯỢC TASK VỀ VN!!! [NÓI TIẾNG NHẬT, HÀN]
+
+V. PHẦN MỀM VÀ NƠI TÌM RA CHÚNG - PHẦN MỀM XUẤT PHÁT TỪ ĐÂU
+   NƠI NÀO LÀM RA CÁI PHẦN MỀM CHO AI ĐÓ DÙNG????
+1. CÔNG TY CÔNG NGHỆ
+* VÍ DỤ: GRAB, UBER, MOMO, PAYO, PAYPAL, NGÂN LƯỢNG, MOBI VÍ...
+	 LAZADA, SHOPPE, TIKI, ITVIEC...
+* ĐỊNH NGHĨA:
+- CÔNG TY MÀ DÙNG PHẦN MỀM ĐỂ KIẾM TIỀN TRÊN PHẦN MỀM ĐÓ
+  PHẦN MỀM SẬP MẤT DOANH THU CỦA NGÀY ĐÓ
+- HOẠT ĐỘNG / KIẾM TIỀN 100% LỆ THUỘC VÀO PHẦN MỀM
+- KO PHẢI LÀ CÔNG TY CHUYÊN LÀM PHẦN MỀM, LÀM PHẦN MỀM THUÊ CHO AI ĐÓ
+
+* ĐẶC TRƯNG DÍNH ĐẾN SE
+  - CTY NÀY NUÔI / TUYỂN 1 ĐÁM DEV FULL TIME - DEV IN-HOUSE CHỈ ĐỂ VIẾT / BẢO TRÌ/ NÂNG CẤP CÁI APP DUY NHẤT NÀY THÔI
+  - CÓ ĐÁM DEV CODE TÍNH NĂNG LIÊN TỤC ĐC THÊM ĐỂ CẠNH TRANH VỚI HÃNG KHÁC
+  - CÓ 1 VÀI GÃ CHUYÊN NGỒI "BỊA" TÍNH NĂNG
+  	- KHẢO SAT THỊ TRƯỜNG 
+	- ĐỌC REVIEW
+	- XEM ĐỐI THỦ
+	- TỰ NGẪM NGHĨ ĐIỀU GÌ KHIẾN KHÁCH HÀNG KHOÁI XÀI APP CỦA MÌNH
+GÃ NÀY GỌI LÀ PRODUCT OWNER (NGƯỜI SỠ HỮU - BỊA RA TÍNH NĂNG)
+			    (KO DỊCH NGHĨA ĐEN: CHỦ SẢN PHẨM VÌ CHỦ S/P LÀ CÁC NHÀ ĐẦU TƯ VÀO GRAB)
+			TRÊN GÃ NÀY LÀ PRODUCT MANAGER
+1 GRAB --- 1 PRODUCT MANAGER
+		N PRODUCT OWNER: MỖI PO NÀY LO 1 MẢNG TÍNH NĂNG
+* DANH PHẬN DÂN DEV / SE KHI LÀM Ở CTY NÀY:
+- DÂN DEV NÓI CHUNG  CTY DẠNG NÀY ĐỐI VỚI XÃ HỘI BÊN NGOÀI THÌ XÃ HỘI KO THẤY VAI TRÒ NÀY LUÔN
+- "CHÌM" PHÍA HẬU TRƯỜNG, DO CHUYỆN CHÍNH CỦA GRAB, LAZADA: BÁN HÀNG, KẾT NỐI THU TIỀN QUA CÔNG NGHỆ
+2. CÔNG TY BỰ
+* VÍ DỤ:
+- THEGIOIDIDONG, VINAMILK, HAGL, BEER SAIGON, HOA PHAT, TRUNG NGUYEN, PETROLIMEX, LONG CHAU, BACH HOA XANH, NGAN HANG,...
+* Đ / N: HỌ LÀ NHỮNG CÔNG TY CÓ MẢNG KINH DOANH RIÊNG, OFFLINE & ONLINE 
+	 HỌ KO LỆ THUỘC 100% VÀO PHẦN MỀM ĐỂ KIẾM TIỀN
+	 NHƯNG HỌ DÙNG PHẦN MỀM ĐỂ QUẢN LÍ CÁC HOẠT ĐỘNG CỦA HỌ: BÁN HÀNG, KHO, SẢN XUẤT, PHÂN PHỐI (SỈ), KẾ TOÁN, CSKH THÂN THIẾT,...
+	 PHẦN MỀM SẬP, VẪN KIẾM TIỀN MÀ
+* ĐẶC TRƯNG DÍNH ĐẾN SE
+- VÌ CÔNG TY TO, BỰ, TRẢI DÀI NHIỀU TỈNH THÀNH, LƯỢNG DỮ LIỆU NHIỀU, ĐA DẠNG, CẦN ĐC QUẢN LÍ 
+  HỌ MƯỚN 1 ĐÁM DEV IN-HOUSE CHỈ ĐỀ LÀM PHẦN MỀM PHỤC VỤ NHU CẦU QUẢN LÍ CỦA HỌ, PHỤC VỤ CÁC PHÒNG BAN: KẾ TOÁN, BÁN HÀNG, KHO, CSKH, MARKETING,..
+- ĐÁM DEV NÀY ĐC CÔNG TY TRẢ LƯƠNG FULL -TIME , HÀNG NGÀY CX NÂNG CẤP, VIẾT CÁC APP CHO CÔNG TY CÁC PHÒNG BAN DÙNG
+	DEV IN - HOUSE   ------  CÁC PHÒNG BAN
+	   BA IN - HOUSE ------  CÁC PHÒNG BAN
+	      TIẾP XÚC CÁC PHÒNG BAN ĐỂ LẤY YÊU CẦU TỪ HỌ. KO BỊA TÍNH NĂNG!!!!
+VÍ DỤ: CẦN VIẾT WEB SITE THEGIOIDIDONG ĐỂ QUẢNG CÁO VÀ BÁN HÀNG ONLINE, NGOÀI KÊNH TRUYỀN THỐNG BÁN, XEM HÀNG TẠI CỬA HÀNG VẬT LÝ TRÊN PHỐ!!!
+       CẦN VIẾT LUÔN PHẦN MỀM TÍNH TIỀN TẠI QUẦY...
+       NHÓM DEV IN HOUSE GỒM BA LÀM THEO Y/C CỦA PHÒNG KẾ TOÁN, QUẦY THU NGÂN, THỦ KHO, PHÒNG BÁN HÀNG
+       GIAO TIẾP VỚI CÁC PHÒNG BAN, KO TỰ IM IM BỊA TÍNH NĂNG
+   "CHUYÊN VIÊN ĐI (GẶP) KHÁCH (HÀNG)" XUẤT HIỆN
+  ĐỐI VỚI NHÓM DEV THÌ PHÒNG BAN KẾ TOÁN, KHO, CSKH, THU NGÂN LÀ KHÁCH HÀNG CỦA NHÓM DEV
+---------------------------------------------------------------------------------------------
+ĐIỂM CHUNG BA, PO: ĐỀU PHẢI TÌM RA REQS, PHÁC THẢO CÁC MÀN HÌNH: THÊM XÓA, SỬA, TÌM KIẾM,...
+ĐIỂM KHÁC: 1 BÊN TỰ NGHĨ RA TÊN MÀN HÌNH, REQS; MỘT BÊN ĐI HỎI BÊN ĐẶT HÀNG MUỐN CỤ THỂ GÌ!!!
+---------------------------------------------------------------------------------------------
+*  "DANH PHẬN"
+-  CX KO LUÔN
+----------------------------------------------------------------------------------------------
+3. CÔNG TY 3 ĐỜI LÀM PHẦN MỀM - CTY SINH RA CHUYÊN LÀM PHẦN MỀM CHO THIÊN HẠ 
+   3.1. CÔNG TY LÀM PRODUCT
+   3.2. CÔNG TY OUTSOURCE / OUTSOURCING
+4. CÔNG TY START-UP
+5. FREELANCE
+----------------------------------------------------------------------------------------------
+3. CÔNG TY 3 ĐỜI LÀM PHẦN MỀM - CTY SINH RA CHUYÊN LÀM PHẦN MỀM CHO THIÊN HẠ 
+* ĐẶC TRƯNG: SỐNG, CÓ DOANH THU TỪ CHÍNH VIỆC LÀM PHẦN MỀM
+  LÀM PHẦN MỀM ĐỂ KIẾM TIỀN
+* "DANH PHẬN" RÕ RÀNG LUÔN; DÂN DEV CHÍNH LÀ TÀI SẢN CỦA CÔNG TY
+
+3.1. CÔNG TY LÀM PRODUCT
+* VÍ DỤ: RIOT, EASPORT, VINAGAME, NINTENDO (VÀ NIANTIC LAB), MICROSOFT, ADOBE, GOOGLE, AMAZON, OPEN AI,...
+	 FPT SOFTWARE
+* ĐẶC TRƯNG: TỰ "BỊA" RA CÁI APP DỰA TRÊN NHU CẦU ĐÁM ĐÔNG
+> XUẤT HIỆN GÃ PRODUCT MANAGER, PRODUCT OWNER 
+> GỌI LÀ CÔNG TY LÀM PRODUCT: LÀM APP: PHỤC VỤ SỐ ĐÔNG USER
+* ƯU & NHƯỢC ĐIỂM
+  > CHUYÊN 1 NHÁNH NÀO ĐÓ, CHUYÊN QUÁ THÌ THÀNH PRO
+  > BIẾT 1 VÀI MÓN SÂU!!!
+  > MUỐN HỌC ĐA DẠNG VỀ CÔNG NGHỆ, LOẠI APP THÌ CTY PRODUCT KO ĐÁP ỨNG ĐC MONG ĐỢI CỦA BẠN
+  
+3.2. CÔNG TY SERVICE-BASE OUTSOURCE / OUTSOURCING
+* VÍ DỤ: FSOFT, ELCA, BOSH, TMA, NASH TECH, NET COMPANY, AXON ACTIVE, KMS (KATALON)...
+* ĐẶC TRƯNG: LÀM PHẦN MỀM THEO ĐƠN ĐẶT HÀNG CỦA AI ĐÓ CỤ THỂ
+	     CTY CHUYÊN CUNG CẤP DỊCH VỤ LÀM APP CHO CÁC DOANH NGHIỆP TRÊN THỊ TRƯỜNG
+    	     KO TỰ BỊA RA MÀN HÌNH, CHỨC NĂNG, TÍNH NĂNG, REQS MÀ PHẢI LÀM THEO CÁCH MÀ DOANH NGHIỆP ĐANG VẬN HÀNH
+	     > XUẤT HIỆN GÃ BA
+				CHƠI VỚI DOANH NGHIỆP BÊN NGOÀI: BV, NHÀ HÀNG, K/S, CTY DU LỊCH, SIÊU THỊ, NGÂN HÀNG, XƯỞNG SXX, TRƯỜNG HỌC, KHO BÃI, CẢNG BIỂN
+* ƯU ĐIỂM & NHƯỢC ĐIỂM
+- ĐA DẠNG NGHIỆP VỤ, ĐA DẠNG CÔNG NGHỆ
+- ĐIỂM MẠNH, THEO ĐUỔI CÔNG NGHỆ CX MỆT...
+
+* MÔ HÌNH
+
+  CTY SERVICE-BASED ---------- BA --------> K / H LÀ BV, TRƯỜNG HỌC QUÁN ĂN, SIÊU THỊ,...
+  CTY SERVICE-BASED ---------- BA --------> K / H LÀ CTY IT KHÁC -------------- K / H LÀ BV, TH, QA, ST,...
+  			       BRSE (Bridge Software Engineer)
+				    Tay BA ĐỨNG GIỮA CTY MÌNH (3 ĐỜI) VÀ CTY ĐỐI TÁC
+				    2 NGÔN NGỮ KHÁC NHAU
+			       (Japan - N3 / N2 , Korea)
+			       Đi nước ngoài nhưng vẫn là nhân sự cty trong nước gọi là đi "On Site"
+
+> Mô hình gia công phần mềm!!!!
+> Làm phần mềm theo đơn đặt hang của cty IT khác thay vì nhận đơn đặt hang trực tiếp từ khách hàng cuối (là người sẽ xài app của mình)
+-----------------------------------------------------------------------------------
+4. CÔNG TY START-UP
+- CÔNG TY KHỞI NGHIỆP - DỰNG 1 ĐẾ CHẾ
+* ĐẶC TRƯNG: LÀ CTY PRODUCT, LÀM 1 SẢN PHẨM ĐỘC ĐÁO, ĐẶC BIỆT PHỤC VỤ ĐÁM ĐÔNG
+- KHỞI NGHIỆP LÀ PHẢI MỞ CTY (ĐĂNG KÍ KINH DOANH, MÃ SỐ THUẾ DOANH NGHIỆP, DẤU MỘC TRÒN)
+- MỞ CÔNG TY KHÔNG CÓ NGHĨA LÀ KHỞI NGHIỆP (MỞ CTY ĐỂ GIA CÔNG PHẦN MỀM, SẢN XUẤT,...)
+- LÀM 1 SẢN PHẨM ĐỘC ĐÁO CHƯA TỪNG CÓ TRÊN THỊ TRƯỜNG, HOẶC Ở NƯỚC KHÁC, NƯỚC MÌNH SÁNG TẠO HƠN 1 CHÚT!!!
+* VÍ DỤ:
+- ELSA (HỌC TIẾNG ANH)
+- 30 SHINE
+- GRAB, PAYPAL, UBER
+- VECA, JUPVIET, BEETASKEE, THEGIOITHO, WEFIT
+- ITVIEC
+- TIKI
+- OPENAI
+------------------------------------------------
+PAIN: NỖI ĐAU CỦA THỊ TRƯỜNG, CỦA USER, CỦA KHÁCH HÀNG KHI HỌ BỊ, PHẢI,...
+GAIN: APP CỦA CHÚNG TA, SẢN PHẨM CỦA CHÚNG TA ĐEM LẠI CHO KHÁCH HÀNG ĐIỀU GÌ, FIX ĐC CÁI PAIN
+------------------------------------------------
+* THÁCH THỨC: Ý TƯỞNG PHẢI PHÙ HỢP NHU CẦU SỐ ĐÔNG, PHẢI LẠ
+ 	      BỎ TIỀN TÚI ĐẦU TƯ HẾT MỌI THỨ, GỒM CẢ PR SẢN PHẨM
+	      > THIẾU TIỀN > SHARK XUẤT HIỆN 
+	      > TỐC ĐỘ RA SẢN PHẨM PHẢI NHANH => CHIẾM THỊ TRƯỜNG
+	         > MƯỚN BỌN DEV GIỎI & LƯƠNG CAO
+		 > CÓ TAY PO - BỊA TÍNH NĂNG
+	
+              > KIẾN THỨC KĨ THUẬT KÈM KIẾN THỨC KINH DOANH
+
+* OÁCH: "FOUNDER TRÊN CARDVISIT - NGƯỜI SÁNG LẬP
+  KÌ 7 - 8: EXE - MÔN KHỞI NGHIỆP
+XEM THÊM VIDEO: THƯƠNG VỤ BẠC TỈ (VTV 3), SHARK-TANK: VIETNAM HOẶC NƯỚC NGOÀI
+HỌC THÊM VỀ KIẾN THỨC KINH DOANH: FSB, CFGV, VIỆT ĐỨC, HỌC VIỆN ĐÀO TẠO DOANH NHÂN PACE
+
+5. FREELANCE: HÀNH NGHỀ CODE DẠO TỰ DO
+- DÂN DEV KO LÀM CTY NÀO CẢ, DEAL TRỰC TIẾP VỚI "NGƯỜI", "NGƯỜI HOẶC CTY" CÓ NHU CẦU LÀM APP NHANH GỌN LẸ. DEAL QUA NHỮNG APP TRÊN MẠNG FREELANCE JOB
+- KHÁCH HÀNG ĐƯA REQS, ĐƯA TIỀN, VÀ MÌNH CODE ĐÚNG DEALINE, ĐÚNG CHẤT LƯỢNG 
+- TỰ DO GIỜ GIẤC, NƠI CHỐN, MIỄN ĐÚNG DEADLINE 
+- TIỀN CHUYỂN TRỰC TIẾP VÀO TÀI KHOẢN MÌNH
+
+* LÀM SAO?
+- XÂY PROFILE THẬT TỐT, PRO TRÊN CÁC NỀN TẢNG VIỆC LÀM, MXH: LINKED IN!!!
+- VIẾT NHIỀU BÀI VỀ KĨ THUẬT TRÊN STACKOVERFLOW, MEDIUM, BLOG CÔNG NGHỆ: VIBLO ASIA, GITHUB NGON
+- KHOE DỰ ÁN ĐÃ LÀM, DỰ ÁN KHÁCH HÀNG THÌ PHẢI KHÉO: CHE TÊN K/H, HOẶC GIẤU NHỮNG THÔNG TIN NHẠY CẢM VỀ LÀM ĂN HỢP ĐỒNG
+
+XÂY DỰNG THƯƠNG HIỆU CÁ NHÂN - CÓ SỐ MÁ
+
+======================================================================================================================
+BÀI THUYẾT TRÌNH SỐ 2:
+- KHẢO SÁT 1 CÁI APP NHO NHỎ TRÊN THỊ TRƯỜNG: (WEB APP, MOBILE)
+  - MINI GAME
+  - TOOL CÔNG CỤ
+  - APP QUẢN LÍ: QUẢN LÍ TÀI CHÍNH, NHẮC LỊCH
+  - APP THU NGÂN TÍNH TIỀN
+  - APP TÍCH DIỂM
+  - ...
+  SỐ MÀN HÌNH KO QUÁ NHIỀU
+
+2. VẼ CONTEXT DIAGRAM
+
+
+3. VẼ USE CASE DIAGRAM
+
+THUYẾT TRÌNH: THỨ 3 TUẦN THỨ 5!!!
+-----------------------------------------------------------------------------------------------------------------------
+BÀI THUYẾT TRÌNH SỐ 3 - SRS
+VI. STAKEHOLDERS - CÁC BÊN LIÊN QUAN, NHỮNG NGƯỜI LIÊN QUAN
+NHỮNG GÃ, NHỮNG NGƯỜI CÓ LIÊN QUAN ĐẾN DỰ ÁN LÀM APP - NHỮNG AI THAM GIA LÀM APP / PROJECT
+1. DEV TEAM ( DEVELOPER, DESIGNER, QC / TESTER )
+
+2. PM
+
+3. BA, PO, BRSE, Product Manager
+
+4. Customer / User (End-User)
+
+5. Các Sếp ở các bên ( Nhà mình và đối tác )
+========================================================================================================================
+3. BA, PO, BRSE, PRODUCT MANAGER
+

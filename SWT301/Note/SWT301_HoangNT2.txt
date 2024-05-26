@@ -1,0 +1,448 @@
+SWT301_HoangNT2
+Giải ngố Test case Design Technique SWT PE
+Giải ngố Use case diagram UML Diagram SWE PE
+Year End Code Party PRN PE
+
+----------------------------------------------------------------------------------
+NHẬP MÔN KIỂM THỬ PHẦN MỀM - SOFTWARE TESTING
+KIỂM THỬ PHẦN MỀM (NÔM NA): 
+	TÌM SAI SÓT KHIẾM KHUYẾT - BUG CÓ TRONG PHẦN MỀM
+ĐÂY LÀ 1 "NGHỀ", 1 JOB TITLE, 1 VỊ TRÍ TUYỂN DỤNG TRONG NGHÀNH PHẦN MỀM - NGHỀ THÁNH SOI
+
+0.BUG LÀ GÌ? HÌNH DÁNG CỦA BUG? LỊCH SỬ THUẬT NGỮ BUG!
+
+I. NHÌN NHANH LẠI QUY TRÌNH LÀM PHẦN MỀM
+CÁC BƯỚC LÀM PHẦN MỀM:
+
+1. REQUIREMENTS SWR302 > CHỨNG CHỈ IIBA | PO
+				   SCRUM MASTER
+2. DESIGN
+3. CODING/IMPLEMENTATION/DEVELOPMENT
+4. TESTING: SWT301 > CHỨNG CHỈ HÀNH NGHỀ TÊN LÀ: ISTQB.
+		     CHỨNG CHỈ CI/CD/DEVOPS.
+5. DEPLOYMENT 
+6. MAINTENANCE | ENHANCEMENT
+ 
+II. ĐỊNH NGHĨA VỀ KIỂM THỬ PHẦN MỀM - KIỂM THỬ PHẦN MỀM LÀ GÌ? - "THÁNH SOI"
+* KIỂM THỬ PHẦN MỀM LÀ SO SÁNH GIỮA 2 THỨ COI CHÚNG CÓ KHỚP NHAU HAY KHÔNG?
+SO SÁNH GIỮA ACTUAL VALUE VÀ EXPECTED VALUE
+SO SÁNH GIỮA GIÁ TRỊ THỰC TẾ VÀ GIÁ TRỊ KÌ VỌNG
+
+* KIỂM THỬ PHẦN MỀM LÀ CHẠY THỬ APP, ĐƯA VALUE VÀO APP XEM APP TRẢ RA KẾT QUẢ THỰC TẾ LÀ GÌ - ACTUAL VALUE VÀ KẾT QUẢ NÀY CÓ NHƯ MÌNH KÌ VỌNG, MÌNH TÍNH TRƯỚC ĐÓ KHI CHƯA XÀI APP HAY KO - EXPECTED VALUE
+
+VÍ DỤ: APP GIẢI PHƯƠNG TRÌNH BẬC 2, BIẾT CHẮC BỘ A B C NÀY THÌ LÀ VÔ NGHIỆM - EXPECTED THỰC TẾ KHI CHẠY APP TRẢ RA CÁI GÌ??? - ACTUAL 
+NẾU ACTUAL VÔ NGHIỆM == EXPECTED => APP NGON
+NẾU ACTUAL CÓ NGHIỆM <> EXPECTED => BUG
+
+* KIỂM THỬ PHẦN MỀM LÀ SO SÁNH XEM APP CÓ VIẾT THEO ĐÚNG THIẾT KẾ, ĐÚNG REQUIEREMENTS ĐÃ HỨA HAY KHÔNG
+
+* KIỂM THỬ PHẦN MỀM LÀ ĐO LƯỜNG XEM HIỆU NĂNG SỬ DỤNG APP, CÁC NON-FUNCTIONAL REQS CÓ THỎA HAY KO?
+
+===================================================================================================
+- NON-FUNCTIONAL REQS LÀ NHỮNG YÊU CẦU PHẦN MỀM LIÊN QUAN ĐẾN CÁI TRẢI NGHIỆM CỦA USER APP NHANH, CHẬM, XẤU ĐẸP, DỄ DÙNG, AN TOÀN BẢO MẬT, TUÂN THEO CHUẨN CỦA BỘ,..
+- KIỂM THỬ PHẦN MỀM KO CHỈ KIỂM TRA XEM APP XỬ LÍ ĐÚNG HAY KO MÀ CÒN LÀ ĐO CÁI CHỈ SỐ NON-FUNCTION REQS CÓ ĐẠT HAY KO
+- VÍ DỤ: ĐO XEM APP CHẠY CÓ ĐÚNG 3S TRỞ LẠI HAY CHO BẤT KÌ MÀN HÌNH NÀO HAY KO
+* KIỂM THỬ PHẦN MỀM CÒN LÀ ĐÁNH GIÁ XEM APP CÓ ĐƯỢC THIẾT KẾ NHƯ ĐÃ HỨA CHO XEM
+  ĐÃ HỨA: TRONG QUY TRÌNH LÀM PHẦN MỀM, CÓ 1 TÀI LIỆU TÊN LÀ 
+	  SRS: SOFTWARE REQUIREMENTS SPECIFICATION (SPEC)
+          FRS: FUNCTIONAL REQUIREMENTS SPECIFICATION 
+         	 	MÔN HỌC SWR302 VÀ NGHỀ ĐI KHÁCH (BA) NGHỀ PO VIẾT RA BUSINESS ANALYST
+DÂN KIỂM THỬ SẼ ĐỐI CHIẾU CÁI APP ĐANG TEST CÓ KHỚP/MATCH VỚI SPEC HAY KO???
+
+III. PHÂN BIỆT QA VÀ QC
+* TRÊN MẠNG VIỆC LÀM, VIỆC TUYỂN NHÂN SỰ KIỂM THỬ PHẦN MỀM HAY CÓ POST NHƯ SAU
+    - TUYỂN DỤNG QA/QC - QUALITY ASSURANCE | QUALITY CONTROL
+						~ TESTER
+--------------------------------------------------------------------------------------------------
+TUYỂN DỤNG VIỆC LÀM:
+- VỊ TRÍ BA, BO, BRSE,  SCRUM MASTER, PM
+		 (JP, KR)
+- VỊ TRÍ CODE: DEVELOPER
+- 	       SA: SOLUTION ARCHITECT (HƠN 4-5K$/MONTH VN)
+- VỊ TRÍ PM - PROJECT MANAGER
+- VỊ TRÍ QA, QC
+--------------------------------------------------------------------------------------------------
+1. QA: KO LÀM VIỆC TRUC TIẾP VỚI APP ĐỂ TÌM BUG
+- KO LÀM VIỆC TRỰC TIẾP VỚI APP ĐỂ TÌM BUG
+- LÀM VIỆC VỚI QUY TRÌNH (GIỐNG STYLE THANH TRA)
+- NGĂN NGỪA SAI SÓT SẼ XẢY RA
+
+[NGĂN NGỪA] DÂN QUA VIẾT RA NHỮNG ĐIỀU NÀY
+- NHÀ PHẢI CÓ CẦU THANG THOÁT HIỂM, DÂY THOÁT HIỂM
+- NHÀ PHẢI CÓ BÌNH CHỮA CHÁY
+- MỌI NGƯỜI TRONG NHÀ PHẢI ĐƯỢC HUẤN LUYỆN KĨ NĂNG THOÁT HIỂM
+
+2. QC/TESTER: GÃ MỞ APP LÊN, TEST NÓ ĐÚNG HAY SAI: 
+- XỬ LÍ ĐÚNG HAY KO (TEST FUNCTIONAL REQS)
+- CHẠY ỔN KO (TEST NONFUNCTIONAL REQS)
+- CÓ THEO SPEC HAY KO
+
+- LÀM VIỆC VỚI APP ĐỂ TÌM BUG
+- TÌM SAI SÓT ĐANG CÓ
+
+[TÌM SAI SÓT ĐANG CÓ]
+- TẠI SAO BÌNH CHỮA CHÁY KHÔNG ĐƯỢC BẢO TRÌ, BƠM THÊM GAS, QUÁ HẠN KIỂM ĐỊNH?
+- TẠI SAO LẠI THIẾU BÌNH CHỮA CHÁY
+- TẠI SAO CẦU THANG THOÁT HIỂM LẠI CHẤT ĐỒ
+
+VÍ DỤ QA / QC TRONG LĨNH VỰC PHẦN MỀM
+GIẢ SỬ TEAM LÀM VIỆC THEO QUY TRÌNH SCRUM - QA SẼ CÙNG PM (PROJECT MANAGER) ĐỊNH NGHĨA QUY TRÌNH LÀM VIỆC CỦA NHÓM SCRUM
+1. QUY TRÌNH LÀM PHẦN MỀM CHIA NHỎ THÀNH CÁC KHUNG THỜI GIAN 2 TUẦN - CUỐI TUẦN THỨ 2 PHẢI CÓ DEMO - GỌI LÀ SPRINT
+2. ĐẦU MỖI SPRINT DIỂN RA 1 PHIÊN HỌP - GỌI LÀ SPRINT PLANNING MEETING
+   TEAM HỌP VỚI PO / PRODUCT OWNER ĐỂ THỐNG NHẤT NHỮNG TASK, USER STORY SẼ LÀM TRONG 2 TUẦN
+3. NHỮNG CÔNG VIỆC CẦN LÀM TRONG 2 TUẦN ĐC GỌI LÀ SPRINT BACKLOG
+4. NHỮNG CÔNG VIỆC CẦN LÀM NHƯNG CHƯA LÀM, ĐC GỌI LÀ PRODUCT BACKLOG
+5. TOÀN BỘ NHỮNG CÔNG VIỆC CẦN LÀM (PRODUCT BACKLOG) VÀ NHỮNG THỨ SẼ LÀM TRONG 2 TUẦN HIỆN TẠI (SPRINT BACKLOG) ĐC LƯU TRỮ Ở 1 TOOL NÀO ĐÓ: JIRA, TRELLO, NOTION, SCRUMDO,..
+6. MỖI NGÀY TRONG TUẦN LÀM VIỆC TEAM PHẢI HỌP NHANH 15 PHÚT ĐẦU GIỜ - HỌP ĐỨNG (DAILY STANDUP MEETING) ĐỂ BÁO CÁO TIẾN ĐỘ
+   MỖI NGƯỜI CHỈ CẦN NÓI 3 CÂU???
+   - HÔM QUA ĐÃ LÀM GÌ???
+   - HÔM NAY SẼ LÀM GÌ???   
+   - CÓ ĐANG GẶP VẤN ĐỀ GÌ KO???
+7. CUỐI MỖI SPRINT DIỄN RA 2 CUỘC HỌP
+   - CUỘC HỌP DEMO APP VỚI PO, DEMO TÍNH NĂNG LÀM ĐƯỢC TRONG VÒNG 2 TUẦN VỪA RỒI
+   - CUỘC HỌP TRONG TEAM, KO CÓ PO, ĐỂ CHIA SẺ KINH NGHIỆM, BÀI HỌC RÚT RA TRONG 2 TUẦN
+   -> CUỘC HỌP RETROSPECTIVE
+   " TUẦN RỒI TAO HỌC ĐC VỚI MÀY MÓN NÀY ĐÃ LẮM..."
+   " TUẦN RỒI TAO GẶP TRỤC TRẶC VỚI KẾT NỐI MOMO..."
+8. MỖI CUỘC HỌP ĐỀU GHI BIÊN BẢN ĐẦY ĐỦ - "MEETING MINUTE"
+QA SẼ DEFINE RA LUÔN CÁC MẪU DOCUMENT CẦN CÓ, VÍ DỤ:
+- SRS (SOFTWARE REQUIREMENTS SPECIFICATION) NẾU CÓ; THÌ PHẢI CÓ MỤC GHI RA HISTORY CHỈNH SỬA (CHANGE LOG)
+- HỌP PHẢI CÓ BIÊN BẢN, GHI THEO MẪU
+
+ĐỊNH KÌ QA SẼ ĐI HỎI TEAM:
+   - BIÊN BẢN ĐÂU??? NẾU KO CÓ CÁC BIÊN BẢN HỌP, ĂN ĐÒ VỚI QA
+QA ĐI MÉC VỚI BAN LÃNH ĐẠO, RẰNG TEAM KO TUÂN THỦ QUY TRÌNH, ẢNH HƯỞNG ĐẾN CHẤT LƯỢNG: CHẤT LƯỢNG APP, CHẤT LƯỢNG PHỤC VỤ KHÁCH HÀNG
+
+QC CỦA TEAM SCRUM LÀM GÌ???
+ - LÔI APP RA TEST, TÌM BUG
+ - LÔI DOCUMENT RA ĐỌC, TEST THEO DOCUMENT
+ - SỜ APP TÌM SAI XÓT NẾU CÓ
+   - REPORT THÌ REPORT VỚI: PM, QC MANAGER
+QA LÀM VIỆC VỚI NHIỀU TEAM, CẢ CTY, PHÒNG BAN KHÁC	=> NGĂN NGỪA SAI XÓT TRONG QUY TRÌNH
+   BỘ TIÊU CHUẨN CHẤT LƯỢNG: ISO, CMMI
+QC: TẬP TRUNG VÀO ĐÚNG APP ĐC PHÂN CÔNG			=> TÌM SAI XÓT TRONG APP
+    TẬP TRUNG VÀO CÁC KĨ THUẬT KIỂM THỬ - TÌM BUG - HỌC SAU !!!!
+TRỌNG TÂM MÔN NÀY LÀ QC / TESTER
+
+IV. 7 VIÊN NGỌC RỒNG - 7 PRINCIPLES OF SOFTWARE TESTING
+------------------------------
+VÀI CON SỐ CẦN NHỚ
+1. OOP: 4 (AEIP) + 5 (SOLID) = 9;
+2. AGILE: 4 
+3. DATABASE: 3 DẠNG CHUẨN CSDL NỔI TIẾNG - NF - NORMALIZATION FORM
+			 1NF , 2NF, 3NF
+4. THIẾT KẾ PHẦN MỀM: 4 + 1 VIEW
+5. SWR - SOFTWARE REQUIREMENTS: WHY (TẠI SAO PHẢI LÀM APP)
+				WHAT(APP CÓ CHỨC NĂNG GÌ)
+				WHO (AI XÀI APP)
+				DATA GÌ
+6. SWT - SOFTWARE TESTING: 7 NGUYÊN LÝ
+------------------------------------------------------------------------------------------------------------------------------------------
+7 NGUYÊN LÍ KIỂM THỬ LÀ NHỮNG CÂU PHÁT BIỂU GIÚP ĐỊNH HƯỚNG CÁCH LÀM KIỂM THỬ, CÁCH TÌM BUG CỦA DÂN QC / TESTER
+1. NL1: TESTING SHOWS THE PRESENCE OF DEFECTS
+	KIỂM THỬ LÀ ĐI TÌM BUGS
+        KIỂM THỬ LÀ KO PHẢI CHỨNG MINH: APP HẾT BUG RỒI!!! APP HẾT BUG RỒI LÀ CÂU NÓI SAI
+	KIỂM THỬ PHẦN MỀM LÀ ĐI TÌM BUG, CỐ GẮNG TÌM ĐC CÀNG NHIỀU BUG CÀNG TỐT VÀ CHO DÙ CÓ TÌM HẾT SỨC THÌ CHẮC CHẮN KO BAO GIỜ TÌM THẤY HẾT BUG
+	APP LUÔN CÒN BUG, VÀ MÌNH CỐ GẮNG TÌM BUG, CHỨ KHÔNG TÌM HẾT
+	NGUYÊN LÝ NÀY KO DÙNG ĐỔ THỪA CHO VIỆC KIỂM THỬ CẨU THẢ!!!
+        MÌNH DÂN QC CỐ GẮNG NGĂN NGỪA CÁC BUG TRONG HẾT KHẢ NĂNG ĐỂ ĐẢM BẢO CÁI TRẢI NGHIỆM KHÁCH HÀNG LÀ TỐT NHẤT
+       [TIN: THU HỒI XE ĐỂ CHỈNH SỬA]
+2. NL2: EXHAUSTIVE TESTING IS NOT POSSIBLE / IS IMPOSSIBLE
+	KO THỂ KIỂM THỬ HẾT CÁC TỔ HỢP, CÁC TÌNH HUỐNG (CASE) SỬ DỤNG APP
+ 	KO THỂ TEST HẾT CÁC TÌNH HUỐNG SỬ DỤNG APP, CÓ KHI PHẦN KO TEST LÀ PHẦN CÓ BUG
+	KO THỂ TEST HẾT CÁC TÌNH HUỐNG SỬ DỤNG APP NÓ LIÊN QUAN ĐẾN 2 ĐIỀU
+        - CÓ QUÁ NHIỀU THỜI GIAN TÌNH HUỐNG CẦN TEST
+        - KO ĐỦ THỜI GIAN ĐỂ TEST HẾT CÁC TÌNH HUỐNG
+
+VÍ DỤ:
+TEST CÁI APP CALCULATOR, CHO TÌNH HUỐNG CƠ BẢN: PHÉP CỘNG + 
+- CÓ TÌNH HUỐNG - CASE / TEST CASE: 0 + 1
+				    0 + 2
+				    0 + 3
+				    0 + 4
+				    ....
+			 	    VÔ SỐ CASE / VÔ SỐ TÌNH HUỐNG!!!
+				    1 + ? VÔ SỐ TÌNH HUỐNG
+				    1 + ? VÔ SỐ TÌNH HUỐNG
+				    1 + SỐ BỰ NHẤT ĐC SUPPORT BỞI APP
+				    + PHỐI HỢP VỚI + - * / KHÁC
+- VÔ SỐ TỔ HỢP XÀI PHÉP + CẦN PHẢI TEST
+VÍ DỤ 2:
+- APP VƯỜN RAU, NHÀ VƯỜN THÔNG MINH
+  TƯỚI NƯỚC, KÉO RÈM CHE TÙY THỜI TIẾT
+  - LIÊN QUAN ĐẾN CẢM BIẾN MẶT TRỜI (ÁNH SÁNG), LIÊN QUAN ĐẾN CẢM BIẾN ĐỘ ẨM
+  - LIÊN QUAN ĐẾN MOTOR / RELAY KHỞI ĐỘNG MÁY BƠM - PHUN
+  - CẤU HÌNH CON SENSOR, ĐỘ BỀN, ĐỘ ỔN ĐỊNH HOẠT ĐỘNG NGOÀI TRỜI...
+   > KHÓ MÔ PHỎNG HẾT ĐƯỢC HẾT CÁC TÌNH HUỐNG THIẾT BỊ!!!
+>>>>>>>> KO THỂ TEST HẾT, VẬY LÀM SAO DÁM KẾT LUẬN APP ỔN ĐỂ DÙNG???
+  > DÙNG CÁC KĨ THUẬT THIẾT KẾ TEST CASE ĐỂ CỐ GẮNG "COVER, BAO SÂN" CÁC TÌNH HUỐNG SỬ DỤNG APP, ĐỂ GIẢM BỚT SỐ TEST CASE / TÌNH HUỐNG TEST MÀ VẪN ĐẢM BẢO CHẤT LƯỢNG THỜI GIAN DỰ ÁN VÀ CHẤT LƯỢNG APP.
+  > KĨ THUẬT KIỂM THỬ PHÂN VÙNG TƯƠNG ĐƯƠNG 		- EQUIVALENCE PARTITIONING
+		PHÂN TÍCH GIÁ TRỊ BIÊN  		- BOUNDARY VALUE ANALYSIS
+3. NL3: EARLY TESTING - KIỂM THỬ PHẦN MỀM DIỄN RA CÀNG SỚM CÀNG TỐT 
+			THẬM CHÍ KHI CHƯA VIẾT 1 DÒNG CODE NÀO ĐÃ KIỂM THỬ LUN RỒI
+	> KHI CHƯA VIẾT CODE TA CÓ TRONG TAY: SRS, FRS -> XUẤT PHÁ TỪ BA / PO 
+				   ĐẶC TẢ YÊU CẦU PHẦN MỀM!!!
+  	> DÂN TESTER SẼ NHẢY VÀO HỖ TRỢ DÂN BA / PO KIỂM TRA DOCUMENT, REVIEW DOCUMENT, TÌM SAI SÓT KHIẾM KHUYẾT, TÍNH KO HỢP LÝ.
+	> SỬA DOCUMENT, SỬA REQS RẺ HƠN SỬA CODE!!!
+	> DEMO SỚM, SỬA CODE SỚM TỐT HƠN LÀ ĐỂ ĐOẠN CUỐI CÙNG MỚI TESTING FULL APP.
+4. NL4: DEFECT CLUSTERING: SỰ PHÂN BỐ CỦA BUG
+	> CÓ CHỖ SẼ TẬP TRUNG NHIỀU BUG, CÓ CHỖ SẼ ÍT BUG!!!
+	* NGUYÊN LÍ 80 / 20 (PARETO)
+			BÀN VỀ TÍNH HIỆU QUẢ CỦA VIỆC GÌ ĐÓ: 1 CHÚT NGUỒN LỰC NHƯNG ĐẠT ĐC NHIỀU KẾT QUẢ
+			DỰ PHÂN BỐ: ÍT THỜI GIAN NHƯNG LẠI ĐẠT HIỆU QUẢ CÔNG VIỆC!!!
+	> CHỖ NÀO TRONG APP SẼ CÓ NHIỀU BUG???
+		> KẾT NỐI VỚI HỆ THỐNG KHÁC: MOMO, VÍ, CLOUD LƯU ẢNH,..
+		> KẾT NỐI VỚI THIẾT BỊ NGOẠI VI: CẢM BIẾN, CAMERA, MÁY MÓC KHÁC
+------------------------------------------------------------------------------------------------------------------------------------------
+5. NL5: PESTICIDE PARADOX - NGHỊCH LÍ THUỐC TRỪ SÂU
+			    HIỆN THƯỢNG KHÁNG THUỐC, LỜN THUỐC | CÓ UỐNG THUỐC KHÔNG HẾT BỆNH
+	DÂN QC LÀ DÂN GÁC CỔNG CHẤT LƯỢNG APP NHƯNG LẠI ĐỂ CÓ BUG BỰ VÀ NGHIÊM TRỌNG TỒN TẠI TRONG APP. KHÔNG TÌM THẤY NHỮNG BUG NGHIÊM TRỌNG
+        CÓ NGƯỜI BẢO KÊ VỀ CHẤT LƯỢNG NHƯNG (QC) NHƯNG APP KO CÓ CHẤT LƯỢNG 
+        TẠI SAO LẠI ĐỂ SÓT BUG (NGHIÊM TRỌNG) ???
+  	- SỰ CHỦ QUAN CỦA DÂN QC DO LÀM HOÀI 1 DỰ ÁN, TEST MÃI 1 DỰ ÁN NÊN RẤT QUEN UI, QUEN NÚT NHẤN, QUEN OUTPUT
+						    -> CÓ THỂ KHI TEST SẼ BỎ QUA CÁC BƯỚC THAO TÁC, MÀN HÌNH, NHÌN LƯỚT ... -> CÓ THỂ BỎ SÓT BUG TRÊN HÀNH TRÌNH TEST
+       GIẢI PHÁP:
+	   => LUÂN CHUYỂN CÔNG VIỆC: TEST MOBILE 1 THỜI GIAN -> CHUYỂN QUA TEST WEB APP, 
+				     TEST ANDROID 1 THỜI GIAN -> CHUYỂN QUA TEST IOS
+				     CHUYỂN TEST MODULE NÀY SANG MODULE KHÁC
+ĐỂ DUY TRÌ SỰ TÒ MÒ, TÒ MÒ KHÁM PHÁ CÁI MỚI!!
+6. TESTING IS CONTEXT DEPENDENT - KIỂM THỬ PHỤ THUỘC VÀO NGỮ CẢNH
+- APP KHÁC NHAU MÔI TRƯỜNG CHẠY APP KHÁC NHAU, CÁCH THỨC KIỂM THỬ PHẢI KHÁC NHAU
++ VÍ DỤ:
+- APP NGÂN HÀNG: FOCUS TEST LUỒNG NGHIỆP VỤ (MÀN HÌNH NÀY SANG MÀN HÌNH KIA)
+		 DO TIỀN BẠC PHẢI KIỂM SOÁT CHẶT CHẼ HƠN BÌNH THƯỜNG
+		 FOCUS TEST VỀ BẢO MẬT (TIẾN RẤT RẤT QUAN TRỌNG)
+- APP IOT NHÀ VƯỜN THÔNG MINH: FOCUS VÀO TÍNH ỔN ĐỊNH THIẾT BỊ SO VỚI MÔI TRƯỜNG
+			       ( CAMERA , CẢM BIẾN )
+- APP TRONG Ô TÔ: FOCUS VÀO PERFORMANCE, TÍNH ỔN ĐỊNH
+		  CẢM BIẾN VẬT CẢN XỬ LÍ ĐỦ NHANH
+- APP TMĐT: FOCUS VÀO NGHIỆP VỤ BÁN HÀNG, TÍNH TOÁN BILL (VOUCHER)
+- TEST TRÊN ANDRIOID KHÁC TEST TRÊN IOS: DO ĐẶC TRƯNG HỆ ĐIỀU HÀNH IOS GẮT VỀ TRUY XUẤT HỆ THỐNG HƠN SO VỚI ANDROID
+7. ABSENCE OF ERRORS FALLACY - NHẬN ĐỊNH SAI LẦM VỀ APP "HẾT" BUG
+		( absence of, free of: ko có )
+					free of charge: ko tốn phí, miễn phí
+ ẢO TƯỞNG VỀ APP "KO CÓ BUG"
+    - MÌNH KO GÁY VỚI KHÁCH HÀNG, VỚI THIÊN HẠ RẰNG APP EM NGON, KO CÓ BUG, HIẾM HOI BUG
+    GÁY NÀY KO ĐÚNG!!!
+    - VIỆC LÀM APP CÓ CÂT LƯỢNG LÀ DEFAULT (ÍT BUG, "KO BUG") LÀ DEFAULT, HIỂN NHIÊN, GÁY KO THÊM Y NGHĨA
+    - VIỆC LÀM APP CÓ CHẤT LƯỢNG LÀ ĐIỀU HIÊN NHIÊN, NHƯNG ĐIỀU QUAN TRỌNG HƠN CẦN GÁY ĐÓ LÀ APP LÀ TOP SERVER, ĐỈNH SERVER, APP EM ĐC BÀ CON TIN DÙNG, GIỚI THIỆU NGƯỜI KHÁC DÙNG, APP EM CÓ TẬP NGƯỜI DÙNG ĐÔNG ĐẢO
+    >>>>>>>>>> GÁY: APP RẤT PHÙ HỢP NHU CẦU SỬ DỤNG CỦA CỘNG ĐỒNG, 
+		        USER 
+		    APP PHẢI LÀM HÀI LÒNG ĐỐI TƯỢNG SỬ DỤNG APP -> MỤC TIÊU TỐI THƯỢNG
+		    PASSED CÁI GỌI LÀ UAT 
+				      USER ACCEPTANCE TESTING
+V. AI THAM GIA VÀO CÔNG VIỆC KIỂM THỬ
+1. DEVELOPER
+2. QC / TESTER *********************************
+3. QC LEADER / QC MANAGER
+4. USER - NGƯỜI DÙNG PHẦN MỀM (END-USER - NGƯỜI DÙNG CUỐI)
+
+TUI	--------------------- BROWSER ----------------------- WIFI ------------ INTERNET ---------- SERVER --------------- CODE -------- DB
+BẠN     -------------------- MOBILE APP --------------------- WIFI ------------ INTERNET ---------- SERVER --------------- CODE -------- DB
+------------------------------------------------------------------------------------------------------------------------------------------> END USER
+<------------------------------------------------------------------------------------------------------------------------------------------
+			     CÁI TRƯỚC MẮT USER
+			     LÀ MÀN HÌNH WEB APP
+			     INFO TRẢ VỀ ĐẾN ĐÂY LÀ KỊCH 
+			     TƯỜNG,
+			     FRONT-END   ------ HẬU TRƯỜNG (BACK) LÀ INFO ĐC XỬ LÝ TIẾP NHẬN VÀ ĐẨ VỀ FRONT-END, USER CHỈ THẤY FE KO THẤY, KO CARE HẬU TRƯỜNG, PHẦN XỬ LÍ HẬU TRƯỜNG VỀ ĐẾN DB LÀ HẾT
+							BACK-END
+				FE				BE
+							FE
+							BE
+							CHỒNG ĐĨA 2 TẦNG -> FULL STACK
+
+
+
+
+END 																	DB LÀ PHẦN CUỐI NHẬN 																	INFO
+END-USER
+GÃ BÊN TAY TRÁI LUỒNG THÔNG TIN TRẢ VỀ TỪ SERVER, ĐẾN MẮT GÃ THẤY LÀ END
+GÃ NGƯỜI DÙNG CÒN HAY GỌI LÀ NGƯỜI DÙNG CUỐI - END USER
+THÔNG TIN CUỐI CÙNG ĐÃ VỀ ĐẾN USER
+USER LÀ GÃ CUỐI CÙNG ĐỂ NHẬN INFO
+1. DEVELOPER
+- DEVELOPER THAM GIA VÀO KIỂM THỬ Ở VAI TRÒ: HỌ PHẢI ĐẢM BẢO CODE HỌ VIẾT RA CHẠY NGON, CHẠY ỔN!!! TỨC LÀ CÁC HÀM , CÁC CLASS, CÁC LIBRARY (DEPENDENCY) HỌ VIẾT RA PHẢI CHẠY NGON
+ -> VIỆC DEVELOPER TEST CODE CỦA HỌ (TEST HÀM, TEST CLASS) ĐC GỌI LÀ: UNIT TEST
+ -> LÀM SAO HỌ TEST CODE CỦA HỌ, 1 CÁCH HIỆU QUẢ (TUẦN SAU SẼ RÕ)
+2. QC / TESTER *********************************************
+- NHÂN VẬT CHÍNH CỦA CÂU CHUYỆN NGHỀ KIỂM THỬ
+- GÃ NÀY CHƠI VỚI APP ĐỂ TÌM CON BỌ
+- GÃ NÀY CHƠI VỚI DOCUMENT (SRS, FRS) ĐỂ TÌM SAI SÓT TỪ EARLY; ĐỂ HIỂU CÁC NGHIỆP VỤ (BUSINESS) RỒI MỚI TEST ĐC!!
+- SẼ ÁP DỤNG CÁC KĨ THUẬT ĐC HỌC , CỦA GIANG HỒ ĐỂ TÌM RA BUG, CÁC KĨ THUẬT TÌM BUG HỌC SAU!!!
+- NẾU TÌM THẤY BUG, GHI LẠI - LOG BUG, CẤT VÀO 1 KHO LƯU TRỮ BUG - BUG DATABASE
+ - JIRA LÀ TOOL QUẢN LÍ BUG LUÔN, NGOÀI VIỆC QUẢN LÍ REQUIREMENTS / USER STORIES
+   - BUGZILLA: TOOL MẢ NGUỒN MỞ DÙNG QUẢN LÍ BUG
+MỌI BUG ĐC TÌM THẤY BỞI QC GHI NHẬN LÊN HỆ THỐNG
+BUG GỒM THÔNG TIN CƠ BẢN:
+- MÃ SỐ
+- TÓM TẮT VỀ BUG
+- MÔ TẢ CHI TIẾT VỀ BUG, HIỆN TƯỢNG GÌ XẢY RA
+- ẢNH CHỤP MÀN HÌNH VỀ BUG, MÀN HÌNH ERROR GÌ ĐÓ
+- MÔ TẢ CÁCH THỨC ĐỂ TẠO LẠI BUG, ĐỂ CHO DÂN DEV BIẾT ĐƯỜNG TÁI TẠO LẠI BUG!!! (RE-PRODUCE A BUG)
+- TRẠNG THÁI: CANCEL, FIXED, CHECK-SAU KHI FIXED, PASSED
+- FREELANCER
+* NHIỆM VỤ, CÔNG VIỆC CHÍNH CỦA GÃ QC / TESTER
+- ĐỌC TÀI LIỆU SRS / FRS ĐỂ HIỂU VỀ APP SẼ TEST
+- GIÚP BA REVIEW TÀI LIỆU, TÌM BUG TỪ SỚM
+- THIẾT KẾ RA CÁC TEST CASE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[ĐỀ THI PE: THIẾT KẾ TEST CASE]
+- RUN CÁC TEST CASE VỪA VIẾT (NẾU LÀ LÍNH MỚI THÌ LẤY TEST CASE CỦA QC KHÁC ĐỂ RUN)
+- TESTER XỊN LÀM THÊM CÁC BƯỚC NÀY: VIẾT CODE ĐỂ TỰ ĐỘNG HÓA CÁI TEST CASE
+- NGHĨA LÀ VIỆC MỞ APP, GÕ URL, NHẬP USER / PASS, ADD TO CART..., HOÀN TOÀN TỰ ĐỘNG = CODE
+  TỰ ĐỘNG SO SÁNH KẾT QUẢ KÌ VỌNG VÀ THỰC TẾ (BILL 1.000.000 LẼ RA KHÁCH PHẢI TRẢ 900. DO GIẢM 10%, NHƯNG APP IN RA KHÁC PHẢI TRẢ 1 TIỆU LUÔN -> BUG)
+  MÁY TỰ SO SÁNH 900.000 VÀ ACTUAL CỦA APP ĐỂ BIẾT APP XỬ LÍ GIẢM GIÁ ĐÚNG HAY KO
+> VIỆC VIẾT CODE ĐỂ THAY SỨC QC CHẠY CƠM NHẤN NÚT INPUT, CODE NÀY ĐC VIẾT BỞI QC (CHỨ KO PHẢI DEV) ĐC GỌI LÀ: TEST AUTOMATION SCRIPT
+  DÂN QC MÀ CHƠI TRÒ TỰ ĐỘNG HÓA VIỆC TEST VIỆC TEST TỰ ĐỘNG NÀY GỌI LÀ: AUTOMATION TESTING
+									 AUTOMATED TESTING
+									 TESTING AUTOMATION
+* CÒN VIỆC DÙNG CƠM NHẬP DATA, NHẤN NÚT, DÙNG MẮT SO SÁNH ĐÚNG SAI -> MANUAL TESTING
+								      TEST MANUAL
+  TEST = SỨC, TEST = CODE
+> TOOL / THƯ VIỆN ĐỂ GIÚP AUTO KIỂM THỬ: SELENIUM, APPIUM, CYPRESS
+>>>>>>>>>>>>>>>>>>>>>>>>> TEST CASE LÀ GÌ - TÌNH HUỐNG KIỂM THỬ LÀ GÌ (TRÊN MẠNG DỊCH LÀ: BÀI KIỂM THỬ, BÀI KIỂM TRA, CA KIỂM THỬ)
+- LÀ 1 TÌNH HUỐNG XÀI APP CỦA USER NHƯNG TEST LÀM THỬ NGHIỆM ĐÓNG VAI XÀI TRƯỚC CÁI APP
+- LÀ 1 BỘ DATA ĐẦU VÀO + CÁC BƯỚC NHẬP LIỆU + NHẤN NÚT + KẾT QUẢ KÌ VỌNG APP PHẢI TRẢ RA SAU KHI XỬ LÝ XONG ĐẦU VÀO
+- BỔ SUNG THÊM: PASSED HAY FAILED KHI ĐƯA TEST CASE VÀO RUN VỚI APP
+- VÍ DỤ TEST TRANG LOGIN THÌ CÓ CÁC TEST CASE SAU:
+ - TC1 (TEST CASE 1): ĐÚNG USER, ĐÚNG PASS -> VÀO APP ĐÚNG ROLE
+		      ĐÚNG USER, ĐÚNG PASS -> REMEMBER ACCOUNT
+		      ĐÚNG USER, ĐÚNG PASS VÀ NẾU MÁY QUEN ĐÃ LOGIN TRƯỚC -> CHO VÀO APP
+		      ĐÚNG USER, ĐÚNG PASS VÀ NẾU MÁY LẠ -> OTP XÁC NHẬN CHÍNH CHỦ -> VÀO HOẶC CHỬI KO CHO VÀO
+		      ĐÚNG USER, SAI PASS  -> CHỬI, HIỆN RESET PASS
+		      ĐÚNG USER, SAI PASS, SAI QUÁ 3 - 5 LẦN -> CHỬI LOCK ACCOUNT
+		      SAI USER, PASS KO CARE -> CHỬI HIỆN CHỨC NĂNG SIGN UP
+- VÍ DỤ TEST CHỨC NĂNG NHẬP ĐIỂM VÀO HỆ THỐNG FAP
+	- TEST CASE 1: NHẬP ĐIỂM BÉ HƠN 0 -> CHỬI
+	- TEST CASE 2: NHẬP ĐIỂM > 10 -> CHỬI
+	- TEST CASE 3: NHẬP ĐIỂM TỪ 0... 10 -> SAVE ĐÚNG
+	- ...
+* CẤU TRÚC CỦA 1 TEST CASE MÀ DÀN QC PHẢI TẠO RA
+ID 	|	TÊN GỌI TEST CASE    |    DATA CHUẨN BỊ		|	CÁC BƯỚC THỰC HÀNH VỚI APP	|	EXPECTED RESULT		| TEST PROCEDURES, TEST STEPS
+| ROUND 1: GHI ACTUAL	| PASSED / FAILED   | ROUND 2: GHI ACTUAL |   PASSED / FAILED
+| ROUND 3: GHI ACTUAL 	| PASSED / FAIELD   |
+* TEST CASE LƯU TRỮ Ở ĐÂU
+- HUYỀN THOẠI NHẤT: EXCEL
+- DÙNG ONLINE TOOL: TESTRAIL
+3. QC LEADER / QC MANAGER
+- QUẢN LÍ CÁC QC / TESTER
+- PHỐI HỢP VỚI PM ĐỂ LÊN KẾ HOẠCH KIỂM THỬ
+- CHUẨN BỊ ĐỒ CHƠI SẴN DÙNG CHO DÂN KIỂM THỬ
+  - ĐỀ XUẤT MUA THIẾT BỊ PHỤC VỤ KIỂM THỬ: VÍ DỤ APP BÁN HÀNG THÌ PHẢI MUA MÁY IN, BARCODE SCANNER, HỆ THỐNG IOT NHÀ VƯỜN, THÌ PHẢI DỰNG LÊN 1 NHÀ VƯỜN VỚI CÁC CẢM BIẾN...
+  - ĐỀ XUẤT  MUA SERVER, THUÊ SERVER ĐỂ HOST / ĐƯA APP LÊN INTERNET ĐỂ TEST SERVER RUN DESKTOP APP
+							   MOBILE ĐỂ TEST MOBILE APP
+  > MÁY MÓC + THIẾT BỊ ĐỂ PHỤC VỤ KIỂM THỬ APP => STAGGING ENVIRONMENT / SERVER
+  > NGƯỢC LẠI VỚI STAGING SERVER LÀ: GO-LIVE SERVER, PRODUCTION SERVER / EVN
+				     CỰC KÌ CẨN THẬN TRÊN SERVER NÀY VÌ CHỨA DỮ LIỆU REALTIME CỦA KHÁCH HÀNG
+- PHÂN CÔNG QC / TESTER TẠO TEST CASE
+- PHÂN CÔNG QC / TESTER RUN CÁC TEST CASE
+- KIỂM TRA, KIỂM SOÁT BUG SERVER !!!!!!!
+(VIỆC ASSIGN DEV NÀO SỬA BUG NÀO LÀ CHUYỆN CỦA MÁY TAY DEV + LEADER BÊN DEV)
+QC ĐI TÌM BUG, REPORT LÊN BUG SERVER BUG (BUGZZILA)
+GHI NHẬN / POST 1 BUG LÊN SERVER BỞI QC ĐC GỌI LÀ: LOG BUG!!!
+- TOÀN BỘ KẾ HOẠCH CỌNG VIỆC Ở TRÊN QC LEADER, QC MANAGER GHI RA TRONG NHỮNG FILE .DOCX ĐC GỌI LÀ TEST PLAN - KẾ HOẠCH KIỂM THỬ - TRÌNH BÀY CHO QC TEAM, PM
+4. USER - NGƯỜI DÙNG PHẦN MỀM (END-USER - NGƯỜI DÙNG CUỐI)
+- NGƯỜI DÙNG PHẦN MỀM SẼ LÀ NGƯỜI TEST CUỐI CÙNG "TEST" APP
+* NẾU LÀ APP LÀM THEO ĐẶT HÀNG CỦA CTY NÀO ĐÓ, VÍ DỤ APP QUẢN LÍ BỆNH VIỆN, QUẢN LÍ CHUỖI NHÀ HÀNG / KHÁCH SẠN THÌ:
+  - NHÂN VIÊN CỦA CTY ĐÓ PHẢI CÓ TRÁCH NHIỆM DÙNG THỬ APP ĐỂ TÌM RA BUG SAI SÓT, SỰ THIẾU HỤT TÍNH NĂNG, TÍNH NĂNG LÀM KÌ QUÁ...
+  NHÂN VIÊN CTY KHÁCH HÀNG (TIẾP TÂN, CSKH, BÁC SĨ, Y TÁ, KHO...) XÀI THỬ
+  CÓ THỂ CONFIRM: APP, ÔN DỄ DÙNG HOẶC CẦN FIX THÊM
+  > D9C GỌI LÀ NGHIỆM THU SẢN PHẨM TIẾNG ANH GỌI LÀ UAT -> USER ACCEPTANCE TESTING
+* NẾU LÀ APP VIẾT CHO BÁ TÍNH DÙNG / TOOL: CAPCUT, BROWSER, GAME, TOOLS
+  THƯỜNG SẼ TUNG LÊN MẠNG CHO BÀ CON DÙNG
+  - ALPHA, BETA, RC, TRIAL
+  - ĐÔNG ĐẢO USER, ĐA DẠNG CÁCH XÀI, BUG CÓ THỂ SẼ XUẤT HIỆN, TESTER TẠI CTY KO ĐỦ ĐỂ MÔ PHỎNG HẾT CÁC TEST CASE, DO Ó NHỜ CỘNG ĐỘNG MẠNG TEST GIÙM 1 CÁCH KHÉO LÉO => CÁCH CHO DÙNG THỬ...
+  - MÃ NGUỒN MỞ: TUNG LUÔN CẢ SOURCE CODE LÊN MẠNG => CỘNG ĐỒNG SOI CODE => TÌM BUG!!!
+    AUTHOR THẤY CODE TỪ CỘNG ĐỘNG ỔN => MERGE VÀO CODE CHÍNH
+    PULL REQUEST TRÊN GITHUB: KĨ THUẬT ĐÓNG GÓP CODE TỪ COMMUNITY
+=================================================================================================================
+=================================================================================================================
+TESTING LEVELS - CÁC MỨC ĐỘ KIỂM THỬ
+ - KIỂM THỬ NỀN DIỄN RA CÀNG SỚM CÀNG TỐT, KIỂM THỬ TỪ GIAI ĐOẠN REQS
+ - CODE ĐẾN ĐÂU, CX KIỂM THỬ NGAY ĐẾN ĐÓ
+ - CÓ 4 MỨC ĐỘ HOÀN THIỆN CODE
+  
+----------------------------------------------------------------------------------------------------------------------------------
+PROJECT																PRODUCT
+QUÁ TRÌNH LÀM APP														APP ĐÃ LÀM XONG
+PROJECT MANAGER (PM)														PRODUCT MANAGER
+																PO, BA
+DEV VIẾT XONG					UI + CODE (CLASS) + DB
+1 HÀM, 1 CLASS					   + 1 TÍ API
+DÂN DEV PHẢI TEST CODE LUÔN			  DÂN DEV + DÂN QC NHẢY VÀO TEST LUÔN
+						  INTEGRATION TESTING LEVEL							DÂN QC FULL THỜI GIAN
+UNIT TESTING LEVEL														TEST APP
+																SYSTEM TESTING LEVEL
+=================================================================================================================
+1. UNIT TESTING LEVEL (KIỂM THỬ ĐON VỊ)
+- ĐƠN VỊ CODE NHỎ NHẤT LÀ: HÀM, VÀ CLASS
+- MỌI HÀM VÀ CLASS DO DÂN DEV VIẾT RA, DÂN DEV PHẢI TEST ĐỂ ĐẢM BẢO CODE NGON
+- LÀM SAO DÂN DEV TEST HÀM / CLASS CỦA MÌNH
+CÓ NHỮNG CÁCH SAU DÂN DEV CÓ THỂ DÙNG ĐỂ TEST CODE CỦA HỌ
+* CÁCH 1:
+  - In ra console, bằng cách gọi hàm với data đưa vào, sau đó chạy hàm, xem hàm trả về kết quả gì - ACTUAL VALUE, sau đó so sánh xem kết quả trả về của hàm ACTUAL VALUE có ==gai2ia1 trị kì vọng mình tính sẵn trước hay ko == EXPECTED VALUE!!!
+- Cách này dễ làm, dể hiểu, chỉ là gọi hàm, in kết quả và so sánh
+- Cách này tự luận ra kết quả đúng sai = Dùng mắt và dung mắt để so sánh 1 loạt kết quả đc in ra
+- Có thể gây sai sót khi nhìn rất nhiều kết quả in cùng lúc
+- Cách này dễ làm nhưng nhìn bằng mắt nhiều kết quả => Gây sai sót
+- Có cách nào mà máy làm giúp luôn phần so sánh kết quả => Kết luận giùm luôn
+=> Có!!! Vì actual và expected là những con số, những giá trị máy tính giỏi tính toán và so sánh trên các giá trị!!!
+* CÁCH 2:
+ - POPUP ra màn hình hoặc ghi log file .txt .log
+ - Mắt vẫn phải nhìn kết quả ở file text hay màn hình popup!!!
+* CÁCH 3: 		
+ - Cách anh em mình sẽ tập trung vào !!!!!
+ - Cách pro nhất !!!
+ => Máy sẽ so sánh giùm các kết quả của các test case, mắt người chỉ nhìn 1 thứ duy nhất. Đó là???
+ - Cách này áp dung cho mọi ngôn ngữ lập trình (Cạnh tranh nhau)
+ - Xài những bộ thư viện bên ngoài (.JAR .DLL)
+ - Những bộ thư viện này sẽ giúp so sánh 2 kết quả Expected Value VS. Actual Value
+ Và gom kết luận giúp mình bằng màu sắc: Xanh | Đỏ
+ Đỏ: Expected != Actual
+ Xanh: Expected == Actual
+ > Chính là sự khởi đầu cho quy trình lớn hơn: CI / CD / DEVOPS
+ 
+ Java: JUNIT, TESTING
+ C#: NUNIT, XUNIT, MSTEST
+ PY: PYTEST
+ JS: MOCHA, JESTMINE,..
+ ...
+ LÀ NHỮNG THƯ VIỆN / DEPENDENCY HỖ TRỢ DÂN DEV KIỂM THỬ CODE HIỆU QUẢ
+ ĐC GỌI CHUNG LÀ UNIT TEST FRAMEWORK
+=================================================================================================================
+CÁCH THỂ GIỚI QUẢN LÍ CÁC DEPENDENCY - LIBRARY
+- CÁC HỌ NGÔN NGỮ LẬP TRÌNH: C#, JAVA, JS ĐỀU CÓ 1 KHO / REPOSITORY, CHẲNG QUA LÀ 1 WEB APP NƠI HỌ LƯU TRỮ VÀ CHO PHÉP
+CÁC DEV TRÊN THẾ GIỚI NÀY TẢI VỀ CÁC THƯ VIỆN / DEPENDENCY
+- JAVA CÓ 1 NƠI LƯU TRỮ TOÀN CẦU TOÀN BỘ CÁC FILE .JAR
+- C# CÓ 1 NƠI LƯU TRỮ TOÀN CẦU CÁC BỘ CÁC FILE .DLL
+TRÊN KHO NÀY CHỨA CÁC DEPEDENCY CỦA CÁC DEV NỔI TIẾNG, CTY NỔI TIẾNG, CTY NHỎ LUÔN CHO CHÚNG TA DOWNLOAD VỀ SỬ DỤNG 
+KHO NÀY BẠN TÌM THẤY ĐỦ CÁC VERSION CŨ VÀ MỚI CỦA 1 THƯ VIỆN 1 .DLL . JAR
+- VÍ DỤ TRÊN KHO JAVA , CÓ ĐỦ CÁC VERSION CỦA JDBC ỨNG VỚI JDK KHÁC NHAU, ỨNG VỚI SQL SERVER KHÁC NHAU
+KHO JAVA TÊN LÀ: MVNREPOSITORY
+KHO .C#, .NET TÊN LÀ NUGET REPOSITORY
+=================================================================================================================
+
+=================================================================================================================
+CÂU HỎI PHỎNG VẤN:
+ - EM HÃY CHO BIẾT SỰ KHÁC BIỆT GIỮA LIBRARY VÀ FRAMEWORK?
+
+=================================================================================================================
+THƯ VIỆN PHỤ TRỢ VIỆC VIẾT CODE - LIBRARY - HIỆN NAY DÙNG TỪ MỚI: DEPENDENCY 
+- JAVA: .JAR CHÍNH LÀ THƯ VIỆN CODE, CHỨA CÁC HÀM NGƯỜI KHÁC VIẾT (HAY TA VIẾT) CHO TA DÙNG, CHỨA CÁC HÀM CHO TA DÙNG
+- NAY GỌI LÀ DEPENDENCY
+- C#: .DLL Y CHANGE
+- CÁC THƯ VIỆN NÀY PHẢI ĐC TẢI VỀ MÁY TÍNH, ADD VÀO PROJECT
+  TẢI VỀ TA CÓ CÁC TẬP TIN .JAR .DLL => CÁC TẬP TIN ĐC GỌI LÀ PACKAGE / GÓI
+" TÌM THƯ VIỆN / DEPENDENCY HỖ TRỢ MÌNH VIẾT CODE, TẢI NÓ VỀ, TẢI CÁC GÓI VỀ"
+=================================================================================================================
+TEST CASE là gì?? Tình huống xài hàm, app cần phải test để đảm bảo nó ngon
+- Là 1 bộ data đầu vào cung với các thao tác trên màn hình với data đó
+(Nhập, Chọn, Nhấn nút) Để kiểm tra xem app / màn hình có trả về kết quả như dự kiến hay ko??
+(Ngắn gọn: Bộ data đầu vào, steps thực thi và expected value, và actual value và status: Passed hay failed)
+- Ví dụ cho hàm GETFACTORIAL(N) - Tính giai thừa
+TEST CASE #1: N = 0 => EXPECTED VALUE = 1, ACTUAL VALUE = ??? CHỜ CHẠY APP
+TEST CASE #2: N = 1 => EXPECTED VALUE = 1, ACTUAL VALUE = ???
+TEST CASE #3: N = 5 => EXPECTED VALUE = 120, ACTUAL VALUE = ???
+TEST CASE #4: N = -1 => EXPECTED VALUE: CHỬI BẰNG ILLEGALE ARGUMENT EXCEPTION
+( ĐỜI THƯỜNG: CHECK HÀM COI 5! CÓ LÀ 120 HAY KO ???)
+( ĐỜI THƯỜNG: CHECK HÀM COI -1! CÓ CHỬI HAY KO??? - CHỬI THÌ HÀM OKE)

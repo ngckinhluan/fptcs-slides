@@ -1,0 +1,63 @@
+- Áp dụng quy trình Scrum: thời gian ko quá ngắn ko quá dài, 2 tuần báo cáo với giảng viên 1 lần.
+
+- Khuyến khích để app trên azure, cloud, tên miền có phí, deploy trên các nền tảng, có tên miền
+
+- Deploy trên localhost vẫn oke ko sao, nhưng làm 
+
+- RestfulAPI
+
+- Ko hỏi khó về công nghệ
+
+- Tích hợp ứng dụng: xác thực qua gg, fb, qua otp gửi mail, xác thực ứng dụng, tích hợp momo, paypal,..
+
+- Dùng gói UI standard template cua Samsung, google,..
+
+- Validation cơ bản thôi (chỉ đầu tư khi project đã xong hết còn time)
+
+- Export/ Import Excel
+
+- Import File
+
+- ADMIN DASHBOARD TEMPLATE
+
+- LIVE CHART bắt buộc phải có
+
+- Phải có tính năng gửi mail gửi mail đến khách hang khi đăng ký member và generate otp, tạo mail mới để an toàn
+
+- how to intergrate momo, paypal to wesbite
+
+- Phải sử dụng git commit lên từng giai đoạn (giáo viên đánh giá quá trình mỗi người làm) , ko dc làm den cuoi project roi moi commit
+
+- Deploy càng nhanh càng tốt (trên cloud), sẵn sàng cho buổi show project vs thầy cô để thầy cô feedback
+
+- Build nên ưu tiên build project bottom-up, build từ dưới lên,từ back-end lên vì dự án phức tạp. Nếu build front end trước thì sau này build back-end phải thay đổi lại front-end
+
+- TinyMCE, CKEditor,.. để customize ô nhập
+
+- Image lưu ảnh ở Base64/Cloud Firebase
+
+- Quy trình front-end cực nhiều => Build back-end TRƯỚC
+
+- NOTI ĐƠN HÀNG CÓ CÁI CHUÔNG
+
+- HIỂN THỊ SỐ ORDER TRÊN CÁI CHUÔNG
+
+- SELECT COUNT(*) FROM ORDERS WHERE ORDER = 1
+
+- CRON JOB
+
+- CRAWLER
+
+- AXIOS GỌI API
+
+- repository
+
+- controller
+
+- business logic bỏ qua hoặc bỏ vào controller
+
+- Repository Pattern tiết kiệm thời gian
+
+- authen / authorize
+
+- Upload file, Blob, Base64, Upload Firebase
