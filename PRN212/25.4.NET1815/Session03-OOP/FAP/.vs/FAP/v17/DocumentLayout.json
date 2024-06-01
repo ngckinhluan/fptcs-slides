@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\FPT CS\\PRN212\\25.4.NET1815\\Session03-OOP\\FAP\\",
+  "WorkspaceRootPath": "D:\\Work\\fptcs-slides\\PRN212\\25.4.NET1815\\Session03-OOP\\FAP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D730D8C2-C8B0-419D-9BA5-197426B4F8AA}|StudentManagerV1\\StudentManagerV1.csproj|d:\\fpt cs\\prn212\\25.4.net1815\\session03-oop\\fap\\studentmanagerv1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D730D8C2-C8B0-419D-9BA5-197426B4F8AA}|StudentManagerV1\\StudentManagerV1.csproj|d:\\work\\fptcs-slides\\prn212\\25.4.net1815\\session03-oop\\fap\\studentmanagerv1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D730D8C2-C8B0-419D-9BA5-197426B4F8AA}|StudentManagerV1\\StudentManagerV1.csproj|solutionrelative:studentmanagerv1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,8 +14,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d84ee353-0bef-5a41-a649-8f89aca5d84d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -24,9 +32,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\FPT CS\\PRN212\\25.4.NET1815\\Session03-OOP\\FAP\\StudentManagerV1\\Program.cs",
+              "DocumentMoniker": "D:\\Work\\fptcs-slides\\PRN212\\25.4.NET1815\\Session03-OOP\\FAP\\StudentManagerV1\\Program.cs",
               "RelativeDocumentMoniker": "StudentManagerV1\\Program.cs",
-              "ToolTip": "D:\\FPT CS\\PRN212\\25.4.NET1815\\Session03-OOP\\FAP\\StudentManagerV1\\Program.cs",
+              "ToolTip": "D:\\Work\\fptcs-slides\\PRN212\\25.4.NET1815\\Session03-OOP\\FAP\\StudentManagerV1\\Program.cs",
               "RelativeToolTip": "StudentManagerV1\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

@@ -319,8 +319,7 @@ BÀI THUYẾT TRÌNH SỐ 2:
   - ...
   SỐ MÀN HÌNH KO QUÁ NHIỀU
 
-2. VẼ CONTEXT DIAGRAM
-
+2. VẼ CONTEXT DIAGRAM  (CONCEPTUAL DIAGRAM ~ ERD)
 
 3. VẼ USE CASE DIAGRAM
 
@@ -339,5 +338,104 @@ NHỮNG GÃ, NHỮNG NGƯỜI CÓ LIÊN QUAN ĐẾN DỰ ÁN LÀM APP - NHỮNG 
 
 5. Các Sếp ở các bên ( Nhà mình và đối tác )
 ========================================================================================================================
-3. BA, PO, BRSE, PRODUCT MANAGER
+3. BA, PO, BRSE, PRODUCT MANAGER - ĐỀU LÀ NHỮNG GÃ LIÊN QUAN ĐẾN TÍNH NĂNG PHẦN MỀM, LIÊN QUAN ĐẾN YÊU CẦU PHẦN MỀM - KHÁC CÁCH TÌM RA CÁI TÍNH NĂNG, CÁI YÊU CẦU PHẦN MỀM
+
+* BA: GÃ GIAO TIẾP VỚI KHÁCH HÀNG, USER ĐỂ TÌM RA CÁC MÀN HÌNH, HIỂU NHU CẦU CỦA HỌ ĐỂ ĐỀ XUẤT CÁC TÍNH NĂNG 
+* PO - PRODUCT-OWNER, PRODUCT MANAGER - GÃ PHẢI NGHE NGÓNG THỊ TRƯỜNG, NẮM BẮT NHU CẦU THỊ TRƯỜNG , NGƯỜI DÙNG, GÃ QUAN SÁT TÍNH NĂNG CỦA APP ĐỐI THỦ ĐỂ ĐỀ RA, ĐỂ XUẤT CÁC YÊU CẦU PHẦN MỀM, TÍNH NĂNG PHẦN MỀM, CÁC MÀN HÌNH PHẦN MỀM
+
+* BRSE: BA + PM ĐẶC CHẾT CHO THỊ TRƯỜNG NHẬT BẢN, HÀN QUỐC
+	GIAO TIẾP VỚI KHÁCH HÀNG NGOẠI QUỐC BẰNG NGÔN NGỮ CỦA HỌ, TÌM RA YÊU CẦU PHẦN MỀM TỪ HỌ
+	QUẢN LÍ LUÔN TIẾN ĐỘ RELEASE TÍNH NĂNG CHO KHÁCH HÀNG 
+* BA: BUSINESS ADMINISTRATION -> QUẢN TRỊ KINH DOANH
+      MBA: MASTER OF BUSINESS ADMINISTRATION -> THẠC SĨ QUẢN TRỊ KINH DOANH
+	  ( DÂN SE CÓ THỂ NỘP ĐƠN HỌC BẰNG  NÀY ĐC - HỌC THÊM VÀI MÔN CHUYỂN ĐỔI )
+	  TRƯỜNG ĐÀO TẠO: CFGV - HỌC VIỆN VIỆT - PHÁP
+		          VGU  - VIỆT ĐỨC
+		          FSB  - HỌC VIỆN ĐÀO TẠO DOANH NHÂN
+			  PACE 
+      BUSINESS ANALYTICS (BA)
+      BUSINESS ANALYST !!!!!!!!!!!!!!!!!!!!!!!!!! (BA)
+      BUSINESS ANALYSIS 
+* BUSINESS ANALYST - BA, IT BA (GHI RÕ ĐỂ KO NHẦM LẪN VỚI BA BÊN KINH TẾ)
+  > CHUYÊN VIÊN ĐI KHÁCH
+  > CHUYÊN VIÊN ĐI PHÂN TÍCH NGHIỆP VỤ KHÁCH HÀNG - NGƯỜI CHUYÊN ĐI GẶP KHÁCH HÀNG ĐỂ TÌM HIỂU YÊU CẦU VỀ PHẦN MỀM SẼ LÀM CHO HỌ
+  GÃ NÀY GIAO TIẾP VỚI KHÁCH HÀNG THƯỜNG XUYÊN, USER THƯỜNG XUYÊN ĐỂ NẮM ĐC MONG ƯỚC CỦA HỌ VỀ PHẦN MỀM CÔNG TY MÌNH SẼ LÀM CHO HỌ
+>>>>>>>>> CÔNG VIỆC CHÍNH CỦA NGHỀ BA
+- GẶP KHÁCH HÀNG, USER ĐỂ LẤY REQUIREMENTS
+- HỆ THỐNG HÓA TOÀN BỘ REQS TÌM ĐƯỢC, THÀNH CUỐN TÀI LIỆU CHUẨN ĐỂ LƯU HÀNH BỞI DEV TEAM - CUỐN NÀY GỌI LÀ
+				      SRS: SOFTWARE REQUIREMENTS SPECIFICATION
+				      FRS: FUNCTIONAL REQUIREMENTS SPECIFICATION
+				      ( CÓ PHÁT THẢO MÀN HÌNH, CÓ PHÁC THẢO DATABASE)
+  				      CÓ CÁC BUSINESS RULES - NHỮNG QUY TẮC XỬ LÍ CÔNG VIỆC CỦA KHÁCH HÀNG
+- QUẢN LÍ ĐC SỰ THAY ĐỔI CỦA CÁC REQUIREMENTS, TỨC LÀ: MỖI VERSION THÊM BỚT TÍNH NĂNG GÌ, APP CÓ CUSTOMIZE THEO NHU CẦU RIÊNG CỦA AI ĐÓ HAY KO, NOTES LẠI HẾT
+-> SAU NÀY NẾU CÓ BUG, SAU NÀY CẦN BẢO TRÌ APP, THÌ TA BIẾT ĐƯỢC VERSION NÀO CÓ TÍNH NĂNG GÌ.
+
+>>>>> KỸ NĂNG CẦN CÓ CỦA NGHỀ BA
+1. KIẾN THỨC NỀN, BACKGROUND DOMAIN, VỀ LĨNH VỰC MÀ APP SẼ LÀM
+   - VÍ DỤ LÀM APP BÁN HÀNG, THÌ MÌNH CẦN CÓ KIẾN THỨC XOAY QUANH VIỆC BÁN HÀNG 
+  		   QUY TẮC KHUYẾN MÃI, ĐỔI TRẢ, TỒN KHO, LỜI, PHÍ SHIP GIAO HÀNG
+		   LÀM THEO CA
+   - VÍ DỤ LÀM APP BỆNH VIỆN, THÌ MÌNH BA CẦN CÓ KIẾN THỨC CƠ BẢN VỀ QUY TRÌNH NGHIỆP VỤ THĂM KHÁM CHỮA BỆNH CỦA BỆNH VIỆN
+     HIỂU TỪ LÚC NHẬN BỆNH , KHÁM, CHỤP CHIẾU, CÓ THỂ NỘI TRÚ, NGOẠI TRÚ, RA ĐƠN THUỐC VỀ NHÀ, NỘI TRỤ (NẰM LẠI VIỆN) CHỤP CHIẾU, ĐO CHỈ SỐ SỨC KHỎE HẰNG NGAY UỐNG THUỐC HẰNG NGÀY, XUẤT VIỆN, BẢO HIỂM Y TẾ, DỊCH VỤ,...
+     HIỂU VỀ DATA ĐC LƯU TRỮ THẾ NÀO + CAC CÔNG VIỆC XỬ LÍ DATA CHỨ TA KO CẦN BIẾT, KO THỂ BIẾT: TẠI SAO BỆNH NÀY THÌ CHO THUỐC X
+										    TA CẦN BIẾT: CÁCH LƯU ĐƠN THUỐC TRONG DB
+------------------------
+SAP - PHẦN MỀM QUẢN LÍ TOÀN BỘ HOẠT ĐỘNG CỦA DOANH NGHIỆP, PHỤC VỤ B2B CHỦ YẾU, KO HƯỚNG VỀ B2C: QUẢN LÍ BÀN HÀNG (SỈ), NHẬP HÀNG, GIAO HÀNG, KHO, KẾ TOÁN, SẢN XUẤT, ...
+- B2B: BUSINESS TO BUSINESS: CÁC DOANH NGHIỆP MUA BÁN VỚI NHAU
+			     CÁC ĐẠI LÝ, CÁC NHÀ PHÂN PHỐI
+			     FPT TRADING (BÁN SỈ, BÁN BUÔN)
+- B2C: BUSINESS TO CUSTOMER: DOANH NGHIỆP BÁN HÀNG CHO NGƯỜI DÙNG CUỐI: TIKI, LAZADA, SHOPEE, TGDD, CELLPHONES: B2C
+-----------------------
+2. KĨ NĂNG MỀM
+2.1 KĨ NĂNG TỔ CHỨC VÀ ĐIỀU PHỐI (ORGANIZATION, FACILITATION)
+    = KHI TA ĐI KHÁCH, TIỆN LÀM VIỆC, NẾU CÓ THỂ, TA HẸN GẶP NHIỀU NGƯỜI BÊN CTY KHÁCH HÀNG CÙNG LÚC LUÔN, VÍ DỤ HẸN BÁC SĨ TRƯỞNG KHOA + BÁC SĨ ĐIỀU TRỊ + BÁC SĨ XÉT NGHIỆM + THU NGÂN
+    BA PHẢI ĐIỀU PHỐI PHIÊN LÀM VIỆC - FACILITATOR
+2.2 KĨ NĂNG MÔ HÌNH HÓA
+    - DÙNG SƠ ĐỒ ĐỂ MINH HỌA Ý TƯỞNG / UI,
+    - DÙNG SƠ ĐỒ ĐỂ DIỄN TẢ CÁC GÓC NHÌN VỀ REQUIREMENTS, VỀ DATA, THAY CHO CÁC LỜI NÓI, HIỆU QUẢ VỀ MẶT TRUYỀN THÔNG
+    - DÙNG SƠ ĐỒ ĐỂ TRAO ĐỔI VỚI KHÁCH HÀNG, DEV TEAM 1 CÁCH HIỆU QUẢ
+    CONTEXT DIAGRAM, USE CASE DIAGRAM, ERD, UI CONCEPT / PROTOTYPING / MOCK-UP / WIREFRAME SCREEN (FIGMA)
+     
+2.3 TƯ DUY HỆ THỐNG
+    - NHÌN CÁI APP MÌNH SẼ LÀM TRONG CÂU CHUYỆN LỚN HƠN, TRONG BỐI CẢNH LỚN HƠN...
+    - APP MÌNH CÒN GIAO TIẾP VỚI NHIỀU APP XUNG QUANH
+	- APP MÌNH GIAO TIẾP VỚI APP CỦA BÊN NGOÀI CTY, TÍCH HỢP APP NGOÀI: MOMO, GIAO HÀNG NHANH, AUTHENTHICATION 3RD PARTY
+        - APP MÌNH CÒN GIAO TIẾP VỚI APP CÓ SẴN CỦA CÔNG TY
+              LÀM PHẦN MỀM KẾ TOÁN BÁN HÀNG, TỒN KHO -> DÍNH ĐẾN SỐ LIỆU KẾ TOÁN - APP KẾ TOÁN
+	      APP FAP DÍNH ĐẾN APP THI EOS, EOS DÍNH ĐẾN PHẦN MỀM LÀM ĐỀ THI
+    - TẠI THỜI ĐIỂM NÀY KHÁCH CHỈ ĐỦ TIỀN, ĐẦU TƯ LÀM APP BÁN HÀNG, THU NGÂN
+	> MÌNH DỰ PHÒNG SAU NÀY ĐẾN APP QUẢN LÍ KHO, KẾ TOÁN, NHẬP HÀNG TỪ NHÀ CUNG CẤP
+2.4 KĨ NĂNG GIAO TIẾP, ĐẶT CÂU HỎI
+    - ĐẶT CÂU HỎI:
+	- CÂU HỎI ĐÓNG - CLOSE-END QUESTION
+		BẠN CÓ BẠN GÁI CHƯA???
+        - CÂU HỎI MULTIPLE CHOICE, 1 SỐ HỮU HẠN ĐÁP ÁN
+	  MANG Ý NGHĨA CONFIRM
+		
+	- CÂU HỎI MỞ - OPEN-END QUESTION
+		HÃY KỂ TỚ NGHE VỀ CÔ ẤY???
+	  CÂU HỎI ESSAY, VIẾT LUẬN, CÂU HỎI DÒ TÌM, KO CÓ ĐÁP ÁN CÓ THỂ!!!
+ - DÂN BA HOÁN CHUYỂN 2 LOẠI CÂU HỎI KHI GIAO TIẾP, NHƯNG ƯU TIÊN CÂU HỎI???
+		MỞ!!! CÓ THỂ LÀ CHUYỆN NGOÀI ĐỜI -> THIỆN CẢM, TIN CẬY TRONG GIAO TIẾP!!!
+=============================================================================================================================
+JOB TITLE - VỊ TRÍ TUYỂN DỤNG - NGHỀ MÌNH THEO
+1. QC / TESTER: NGỒI Ở CTY QUANH NĂM TRONG TEAM, KĨ CÀNG, "PHÁ" APP
+2. DEV : NGỒI Ở CTY QUANH NĂM TRONG TEAM, LÀM RA APP, ÁP DỤNG CÔNG NGHỆ VÀO THUẬT TOÁN
+3. BA  : NGỒI CÔNG TY, ĐI ON SITE = ĐI ĐẾN CÔNG TY KHÁC HÀNG, KĨ NĂNG GIAO TIẾP...
+4. SA  : SOLUTION ARCHITECT (4000$ / M UP)
+	 CODE VỚI INTERFACE, DESIGN PATTERNS, CÁC LOẠI KIẾN TRÚC MVC, ONION, API, MICROSERVICES... ĐỈNH CAO CỦA NHỨC ĐẦU VỀ CODE
+5. BRSE: GIỐNG BA, PM, THÊM NGOẠI NGỮ
+6. PM  : NGỒI CTY, CÓ THỂ ĐI KHÁCH, KĨ NĂNG QUẢN LÍ, KĨ NĂNG MỀM
+
+==============================================================================================================================
+
+>>>> LÀM SAO ĐỂ TRỞ THÀNH BA
+1. CẦN CÓ KĨ NĂNG SE : (ĐỂ KHI K/H NÓI RA YÊU CẦU, TA BA HÌNH DUNG ĐC NGAY ĐỘ KHÓ - KHÓ Ở PHẦN CÀI ĐẶT CODE - DỄ DEAL VỚI KHÁCH HÀNG)
+2. HỌC KĨ NĂNG MỀM 
+3. HỌC CÁC CHỨNG CHỈ LIÊN QUAN ĐẾN NGHỀ BA BOK (NHIỀU LEVEL)
+   - CHỨNG CHỈ BA (CỦA TỔ CHỨC CẤP CHỨNG CHỈ TÊN LÀ: IIBA), CHỨNG CHỈ PO (SCRUM.ORG), BACS.VN
+HỌC BỘ GIÁO TRÌNH TÊN LÀ BOK (BODY OF KNOWLEDGE - DÀN KHUNG KIẾN THỨC BA)
+* CÁC CHỨNG CHỈ NGHỀ NGHIỆP (NGOÀI CODE) PM, BA, PO, SCRUM MASTER: NÊN ĐI LÀM TỪ 6 THÁNG 1 2 NĂM HÃY ĐI HỌC VÀ LUYỆN
+================================================================================================================================
+4. CUSTOMER / USER (END-USER)
 
