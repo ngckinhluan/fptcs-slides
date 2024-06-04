@@ -472,3 +472,103 @@ SAU NÀY TA CẦN BỔ SUNG TEST CASE, TA CHỈ CẦN SỬA BỘ DATA, KO ẢNH 
 [THUYẾT TRÌNH 2]
 - XÀI TOOL: KATALON (KMS), TELERIK, TEST COMPLETE, AK AT(FSOFT),...
 - 
+==========================================================================
+CĂN BẢN VỀ GITHUB
+ĐỘNG CƠ 4 THÌ (XE MÁY / Ô TÔ)
+NẠP  - 	NÉN  - NỔ XẢ - KHÁI NIỆM / ABSTRACT    GIT - KHÁI NIỆM, CÔNG NGHỆ Q/LÝ SOURCE CODE
+
+YAMAHA, HONDA, KAWASAKI, SYM,...				GITHUB, GITLAB, BITBUCKET,...
+-> IMPLEMENT CÁI NGUYÊN LÍ 4 THÌ				> IMPLEMENT GIT GỐC, CHO THUÊ BAO KO GIAN QUẢN LÍ SOURCE CODE
+								GITHUB, GITLAB, BITBUCKET 3 CTY DÙNG GIT ĐỂ KIẾM $
+
+LINUS TORVALDS (TÁC GIẢ LINUX) LINUS + UNIX -> LINUX (OPEN SOURCE)
+					       UBUNTU, FEDORA, CENTOS,
+					       RECHAR,...
+BIT KEEPER SERVER CHỨA CODE, CHO THUÊ KO GIAN CHỨA CODE $
+> LẤY CẢM HỨNG TỪ BIT KEEPER -> ĐỂ RA ĐC GIT
+GIT: LÀ KỈ THUẬT, CÔNG CỤ QUẢN LÍ SOURCE CODE: TEAM, SỰ THAY ĐỔI CODE
+					- SCM: SOURCE CONTROL, MANAGEMENT SYSTEM
+					- VCS: VERSION CONTROL SYSTEM
+- QUẢN LÍ ĐC SỰ THAY ĐỔI CỦA TỪNG FILE SOURCE CODE - GHI LẠI HISTORY THAY ĐỔI
+- CHO PHÉP UNDO - ROLLBACK LẠI, LẤY LẠI CODE CŨ
+- CHO PHÉP LÀM VIỆC THEO TEAM CÙNG ĐÓNG GÓP CODE
+- CHO PHÉP XỬ LÍ XUNG ĐỘT, TRÊN CÙNG TẬP TIN KHI 2 DEV CÙNG THAO TÁC - CONFLICT & MERGE - GOM CODE LẠI VỚI NHAU
+- CHO PHÉP TẠO RA NHỮNG VÙNG / KO GIAN / FOLDER THỬ NGHIỆM CODE - BRANCH
+- MERGE NHỮNG KO GIAN THỬ NGHIỆM CODE NÀY LẠI THÀNH BẢN GỐC - BẢN CHÍNH
+- ...
+- [ SUBVERSION, SOURCE SAFE -> CÔNG NGHỆ SCM, VCS TRƯỚC GIT ]
+-> CENTRALIZED -> 1 SERVER QUẢN LÍ CHUNG SOURCE CODE
+-> SERVER SẬP, MẤT SOURCE CODE, KO THỂ HỒI PHỤC LẠI LỊCH SỬ THAY ĐỔI CODE 
+- GIT: PHÂN TÁN - DISTRIBUTED
+SERVER SẬP, THÌ VẪN CÓ THỂ TÁI TẠO LẠI LỊCH SỬ SOURCE CODE DO LỊCH SỬ SOURCE CODE ĐC BACKUP VỀ TỪNG MÁY DEV (LOCAL REPOSITORY) 
+> BỘ LỆNH THAO TÁC PHỨC TẠP HƠN SO VỚI SUBVERSION, SOURCE SAFE
+=============================================================================
+GITHUB (ĐẰNG SAU LÀ CÔNG NGHỆ GIT)
+- 1 NỀN TẢNG THUÊ BAO GIÚP CÁC CÔNG TY QUẢN LÍ SOURCE CODE CỦA HỌ TRÊN ĐÁM MÂY
+- CÓ GÓI FREE VÀ TRẢ PHÍ
+- CHƠI VỚI NÓ CẦN: ACCOUNT: USER-EMAIL / PASS
+- MỖI ACCOUNT SẼ ỨNG VỚI 1 URL: - TẠO URL ĐẸP, Ý NGHĨA
+			        - DÙNG EMAIL CÁ NHÂN
+- MỖI PROJECT Ở MÁY TÍNH, CỦA TEAM, ĐC GỌI LÀ 1 KHO CODE - REPOSITORY - GỌI TẮT LÀ REPO
+GỌI LÀ REPO LOCAL
+PROJECT ĐC UPLOAD LÊN LƯU TRỮ Ở GITHUB SERVER -> REMOTE REPO
+MÁY TÍNH ---------------------------------------------------------------------------------- GITHUB SERVER
+LOCAL WORKSPACE										    DỰ ÁN CỦA TEAM
+LOCAL REPO										    REMOTE REPO
+		DÙNG CÁC LỆNH GIT <..... ĐỒNG BỘ..... >
+		HOẶC DÙNG GUI (ĐẰNG SAU CX LÀ LỆNH À)
+CHƠI VỚI GIT, BẠN CÓ THỂ
+ - GÕ LỆNH ĐỒNG BỘ TỪ CLOCAL VS SERVER (REMOTE)
+ - CLICK CHUỘT ĐỂ ĐỒNG BỘ CODE - GUI: TOOL NỔI TIẾNG SOURCE TREE
+						     GITHUB DESKTOP
+				 GUI: TRONG IDE, TOOL, LẬP TRÌNH CÓ SẴN LUÔN
+ - TẢI / DOWNLOAD GIT - SCM CHÍNH CHỦ SẼ CÓ ĐC 2 TOOL: CMD VÀ GUI
+ - CÀI THÊM TOOL (GOOGLE GÕ CLIENT TOOL)
+ - XÀI NGAY IDE NETBEANS, VS CODE, VS CÓ SẴN LỆNH / GUI
+
+===============================================================================
+I. NHÓM LỆNH CHỈ GÕ 1 LẦN DUY NHẤT TRÊN 1 MÁY, MÁY MỚI CÀI GIT GÕ LỆNH NÀY 1 LẦN
+   NẾU CÀI LẠI WIN THÌ PHẢI GÕ LẠI, CHỈ 1 LẦN HOY
+   NẾU MƯỢN MÁY BẠN, THÌ GÕ LẠI 1 LẦN THÔI
+* NHÓM LỆNH CẤU HÌNH ACCOUNT GITHUB ĐỂ ĐỒNG BỘ
+git config --global user.name doit.now   // thay bằng github của bạn
+git config --global user.emal hoangnguyenthe@gmail.com   // thay bằng email của bạn
+// PASSWORD SẼ BỊ HỎI KHI ĐỒNG BỘ CODE LẦN ĐẦU!!! SAU ĐÓ ĐC REMEMBER TRÊN MÁY
+II. NHÓM LỆNH CHỈ GÕ 1 LẦN DUY NHẤT CHO MỖI PROJECT Ở LOCAL KHI BẠN LẦN ĐẦU ĐỒNG BỘ CODE
+* NẾU BẠN TẠO MỚI 1 PROJECT, THÌ BẠN GÕ LỆNH NÀY 1 LẦN
+* CỨ MỖI PROJECT ĐƯỢC TẠO RA, THÌ BẠN GÕ LỆNH NÀY 1 LẦN
+* KHI GÕ, PHẢI ĐỨNG Ở ĐÚNG PROJECT MUỐN ĐỒNG BỘ
+* LỆNH NÀY GIÚP BIẾN PROJECT TRÊN HDD / SDD THÀNH KHO LOCAL - LOCAL REPO
+* LỆNH NÀY SẼ TẠO RA 1 THƯ MỤC ẨN TRONG PROJECT GIÚP LƯU DẤU VẾT THAY ĐỔI SOURCE CODE CẤM TUYỆT ĐỐI XÓA THƯ MỤC NÀY
+  git init				// NHỚ ĐÚNG Ở THƯ MỤC PROJECT
+III. NHÓM LỆNH GÕ 1 LẦN DUY NHẤT CHO LẦN ĐẦU TIÊN ĐỒNG BỘ TỪ LOCAL LÊN REMOTE / SERVER
+1. CÂU LỆNH BÁO GIT QUÉT TOÀN BỘ THƯ MỤC PROJECT LỌC RA THẰNG NAO LÊN, THẰNG NÀO Ở LẠI
+git add .		// nghĩa là quét toàn bộ project, đánh dấu tất cả các tập tin sẽ lên và đánh dấu thêm tập tin nào
+			// có dấu . ở đầu tên, cùng lên server
+git add * 		
+			// nghĩa là quét toàn bộ project, đánh dấu tất cả các tập tin sẽ lên và đánh dấu thêm tập tin nào
+			// ko them cho tập tin có dấu . đứng đầu ở lại.
+2. CẠU LỆNH CONFIRM RẰNG NHỮNG THẰNG TẬP TIN Ở LỆNH 1 SẼ ĐƯỢC LÊN SERVER
+git commit -m "ghi chú vắn tắt về lí do đưa lên server", ghi vắn tắt
+              "nội dung sửa code"   // ĐI THỰC TẬP, ĐI LÀM THẬT CẤM GÕ LOREM, ASDF...
+				   // GÕ BẬY BẠ, LÊN SERVER CÓ CHỮ BẬY BẠ
+				  //  CHECK VAR NẾU GÕ BẬY BẠ
+3. CÁC LỆNH CHUẨN BỊ ĐỒNG BỘ LOCAL VÀ REMOTE
+LOCAL REPO		------------------------------------------------------------------------------------ 	REMOTE REPO
+NHÀ KHO CHỨA CODE
+KHO CHIA THÀNH TỪNG PHÒNG ĐỂ 
+CHỨA ĐỒ THEO MỤC ĐÍCH NÀO ĐÓ
+PHÒNG NGOÀI ĐỜI = BRANCH						=> LOCAL REPO				REMOTE REPO
+BRANCH = PHÒNG KHÁCH, PHÒNG NGỦ						      MAIN				    MAIN
+BRANCH = PHÒNG CODE CHÍNH / NGON - MAIN / MASTER			      DEMO (THỬ NGHIỆM)			    DEV
+	 PHÒNG CODE THỬ NGHIỆM	- DEV, HOTFIX, FEATURE, TÊN-THẰNG-BẠN	      TÊN-BẠN (THỬ NGHIỆM)		    TÊN-BẠN (THỬ NGHIỆM)
+CODE PHÒNG MÀ NGON, CẤT TRỮ LÂU DÀI VÀO PHÒNG CHÍNH - MAIN => MERGE	
+git branch -M main // vào phòng local
+git remote add origin ngoctrinh https:///...// trỏ tới kho ở xa - phòng main luôn
+git push -u origin main	
+	    từ xa  local
+SẼ BỊ HỎI PASSWORD, POPUP CỬA SỔ TRUYỀN DUYỆT ĐỂ LOGIN VÀO GITHUB -> THÀNH CÔNG
+IV. NHÓM LỆNH HUYỀN THOẠI, XÀI MỖI LẦN MÚN ĐỒNG BỘ CODE
+git add *
+git commit -m "lí do sửa code, sửa code gì???"
+git push

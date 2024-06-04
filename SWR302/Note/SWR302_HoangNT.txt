@@ -437,5 +437,79 @@ JOB TITLE - VỊ TRÍ TUYỂN DỤNG - NGHỀ MÌNH THEO
 HỌC BỘ GIÁO TRÌNH TÊN LÀ BOK (BODY OF KNOWLEDGE - DÀN KHUNG KIẾN THỨC BA)
 * CÁC CHỨNG CHỈ NGHỀ NGHIỆP (NGOÀI CODE) PM, BA, PO, SCRUM MASTER: NÊN ĐI LÀM TỪ 6 THÁNG 1 2 NĂM HÃY ĐI HỌC VÀ LUYỆN
 ================================================================================================================================
-4. CUSTOMER / USER (END-USER)
+4. CUSTOMER 	/ USER (END-USER)	END-USER ----------------- FRONT-END -------------- BACK-END ------------------ DB
+   KHÁCH HÀNG       NGƯỜI DÙNG
+4.1 KHÁCH HÀNG
+- NGƯỜI TRẢ TIỀN ĐỂ CÓ APP, ĐỂ ĐẶT HÀNG CTY 3 ĐỜI LÀM APP CHO HỌ
+- KHI HỌ TRẢ TIỀN CHO CTY LÀM APP -> HỌ CÓ QUYỀN ĐÒI HỎI TÍNH NĂNG PHẦN MỀM PHÙ HỢP NHU CẦU DÙNG CỦA HỌ
+- KHI HỌ TRẢ TIỀN ĐỂ CÓ ĐC CÁI APP -> HỌ MONG ĐƯỢC CÁC TÍNH NĂNG MÀ APP CÓ
+4.2 NGƯỜI DÙNG
+- NGƯỜI TRỰC TIẾP XÀI APP, CÓ TƯƠNG TÁC GỬI THÔNG TIN VÀO APP, CÓ TƯƠNG TÁC NHẬN THÔNG TIN TỪ APP
+KHÁCH HÀNG VÀ USER CÓ THỂ LÀ 1, CX CÓ THỂ LÀ 2, TÙY LOẠI APP, TÙY VIỆC ĐẶT HÀNG LÀM APP
+* VÍ DỤ:
+- TÔI, BẠN, TRẢ TIỀN ĐỂ CÓ, SỬ DỤNG OFFICE 365, CÓ DUNG LƯỢNG NHIỀU ĐỂ LƯU TRỮ EMAIL, FILE TRÊN CÁC NỀN TẢNG CLOUD, TRẢ TIỀN CHƠI GAME...
+- TÔI, BẠN LÀ K / HÀNG CỦA GOOGLE, MICROSOFT, EASPORT, RIOT
+- BA MÁ CÁC BẠN TRẢ TIỀN CHO FSOFT ĐỂ CÓ ĐƯỢC PHẦN MỀM QUẢN LÍ HOẠT ĐỘNG DOANH NGHIỆP CỦA BA MÁ
+  BAN LÃNH ĐẠO BỆNH VIỆN CHỢ RẪY TRẢ TIỀN ĐỂ CÓ ĐC PHẦN MỀM QUẢN LÍ HOẠT ĐỘNG BỆNH VIỆN
+- BGH FU TRẢ TIỀN ĐỂ CÓ ĐC APP QUẢN LÍ ĐÀO TẠO: FAP + EOS + PEA + APP LÀM ĐỀ THI
 
+- TUI BẠN TRẢ TIỀN ĐỂ ĐC CHƠI GAME, SỬ DỤNG OFFICE, GMAIL, DRIVE... -> TUI BẠN LÀ USER, CUSTOMER LUÔN !!!
+
+- BA MÁ TRẢ TIỀN ĐỂ CÓ APP ĐỂ QUẢN LÍ HOẠT ĐỘNG DOANH NGHIỆP CỦA BA MÁ
+  -> CÓ KHI BA MÁ KO XÀI APP MÀ ĐỂ NHÂN VIÊN BA MÁ XÀI
+  -> BA MÁ CÙNG LẮM XÀI DASHBOARD -> CÓ SỐ LIỆU TỔNG KẾT KINH DOANH THEO TIÊU CHÍ:
+				NGÀY, TUẦN, THÁNG, NĂM, NHÓM HÀNG, ĐƠN HÀNG, MẶT HÀNG...
+  > NHÂN VIÊN CHẮC CHẮN XÀI RẤT NHIỀU 
+		  QUẦY THU NGÂN 7 - ELEVEN
+  > BA MÁ LÀ CUSTOMER | NHÂN VIÊN CỦA BA MÁ LÀ USER
+  > BGH LÀ CUSTOMER 		> THẦY CÔ, SINH VIÊN, PHỤ HUYNH LÀ USER CỦA APP ĐÀO TẠO
+  > BAN GIÁM ĐỐC BV LÀ CUSTOMER -> BÁC SĨ, NHÂN VIÊN LÀ USER CỦA APP QUẢN LÍ BỆNH VIỆN
+APP PHẢI THỎA NHU CẦU CỦA 2 NHÓM NGƯỜI NÀY
+	NGƯỜI TRẢ TIỀN SẼ NÓI RA YÊU CẦU CỦA APP, HOẶC LỰA CHỌN APP (GAME, TOOL) PHÙ HỢP NHU CẦU
+	NGƯỜI DÙNG SẼ MONG APP ĐÁP ỨNG ĐƯỢC CÔNG VIỆC CỦA HỌ
+-------------------------------------------------------------------------------------------
+LƯU Ý VỀ UI, QUẢN LÍ DATA CỦA NHỮNG NHÓM USER / CUSTOMER
+KHI THIẾT KẾ APP, LƯU Ý
+- APP DÙNG CHO NỘI BỘ HAY CẢ BÊN NGOÀI???
+- FAP NỘI BỘ; WEBSITE CỦA TRƯỜNG:BÊN ngoài
+- TGDD.COM, CELLPHONES.VN: BÊN NGOÀI  | APP THU NGÂN, TÍNH TIỀN, CSKH, QUẢN LÍ KHO: NỘI BỘ //////////////////
+- LAZADA.COM, SHOPEE.COM -> BÊN NGOÀI | APP QUẢN LÍ CHO CHỦ SHOP, APP QUẢN LÍ HỆ THỐNG > NỘI BỘ
+* UI: UI CHO BÊN NGOÀI PHẢI ĐẸP, QUYẾN RŨ, BÊN NGOÀI LÀ BÁ TÁNH, THIÊN HẠ, CÀNG NHIỀU BÊN NGOÀI THÌ CÀNG TỐT, MỨC ĐỘ PHỦ SÓNG CỦA APP, LÀ NƠI 
+TẠO NGUỒN THU CHO APP.
+* UI: UI CHO NỘI BỘ THÌ KO CẦN MÀU SẮC,"MÀU MÈ", CHỈ CẦN RÕ RÀNG CHÍNH XÁC LÀ ĐỦ
+
+2. CÓ CẦN LOGIN HAY KO ĐỂ XEM ĐƯỢC THÔNG TIN INFO???
+- APP NỘI BỘ: LOGIN NGAY TỪ ĐẦU.
+- APP CHO BÁ TÁNH: KHỎI LOGIN, XEM HẾT INFO ĐI, CẦN THIẾT XUỐNG TIỀN.
+				   TRANG CHỦ PHẢI SHOW KHUYẾN MÃI, SHOW INFO THEO NHÓM: TOP BÁN CHẠY, HÀNG MỚI VỀ, HÀNG KỈ NIỆM EVENT...
+3. NHÓM USER
+- USER THƯỜNG:
+  - GHÉ NGANG APP, KO CẦN LOGIN GÌ CẢ, XEM ĐC NHIỀU INFO -> GUEST, VISITOR
+  - CÓ LOGIN, CÓ ACCOUNT, XEM ĐC NHIỀU INFO LUÔN -> MEMBER, CUSTOMER
+* USER THƯỜNG CHỦ YẾU LÀ VIEW INFO VÀ ADD TO CART => NHÓM NÀY CỰC KÌ QUAN TRỌNG 
+					  HỌ LÀ ĐÁM ĐEM LẠI DOANH THU CHO APP -> UI ĐẸP QUYẾN RŨ NHEN
+- USER QUẢN LÍ, USER QUẢN TRỊ
+  - CHẮC CHẮN PHẢI LOGIN
+  - CÓ NHIỀU QUYỀN THAO TÁC DATA BAO GỒM THÊM XÓA SỬA
+  - TRÁCH NHIỆM: KHIẾN DATA SẴN DÙNG CHO NHÓM TRÊN
+  
+  - CHIA TÙY THEO BÀI TOÁN
+    - CHỦ SHOP - CRUD SHOP ANH TA, CRUD MÓN HÀNG CỦA ANH TA BÁN (ADMIN NHỎ - LIÊN QUAN ĐẾN SHOP MÌNH)
+	NHÂN VIÊN CHỦ SHOP - QUẢN LÍ ĐƠN HÀNG, ĐÓNG GÓI, GIAO HÀNG -> ADMIN NHỎ NHỎ SO VỚI CHỦ SHOP
+	- ADMIN BỰ - ADMIN HỆ THỐNG: BAN ĐC LUÔN CHỦ SHOP
+	UI KO CẦN QUÁ ĐẸP, CHỈ CẦN RÕ RÀNG DỄ HIỂU
+--------------------------------------------------------------------
+- KO ĐC ĐỒNG NHẤT QUYỀN LỰC LÃNH ĐẠO NGOÀI ĐỜI Ở TỔ CHỨC, HAY CÔNG TY LÀ QUYỀN LỰC CỦA ADMIN CỦA APP
+- ĐỪNG BẮT CÁC SẾP LÀ ADMIN
+- XIN LỖI, ADMIN LÀ NGƯỜI ĐƯỢC ÔNG CHỦ, GIÁM ĐỐC, SẾP MƯỚN VỀ QUẢN LÍ DATA
+		QUẢN LÍ DATA: CRUD CÁI GÌ ĐÓ, VÀ DASHBOARD
+  VÍ DỤ: VỚI FAP -> ĐỪNG BẮT HIỆU TRƯỞNG, HIỆU PHÓ, TRƯỞNG KHOA LÀM ADMIN
+- TÌM HIỂU CÁC ROLE, CÁC VAI TRÒ CỦA MỖI NHÂN VIÊN TRONG CƠ CẤU TỔ CHỨC CTY - BIẾN THÀNH ACCOUNT LOGIN VỚI ROLE TƯƠNG ỨNG
+--------------------------------------------------------------------
+>>>>> PHÂN LOẠI USER
+- DIRECT USER
+	- NGƯỜI TRỰC TIẾP MỞ APP LÊN, NHẬP INFO VÀO APP, NHẤN NÚT, CHỜ KẾT QUẢ TRẢ VỀ THƯỜNG LÀ NHÂN VIÊN
+	HOẶC LÀ GUEST; HOẶC LÀ CUSTOMER (CÓ ĐĂNG KÍ ACCOUNT)
+
+- INDIRECT USER
+    - NGƯỜI DÙNG GIÁN TIẾP LÀ NGƯỜI KO TRỰC TIẾP SỜ CHẠM APP
