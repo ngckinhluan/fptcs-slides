@@ -512,4 +512,108 @@ TẠO NGUỒN THU CHO APP.
 	HOẶC LÀ GUEST; HOẶC LÀ CUSTOMER (CÓ ĐĂNG KÍ ACCOUNT)
 
 - INDIRECT USER
-    - NGƯỜI DÙNG GIÁN TIẾP LÀ NGƯỜI KO TRỰC TIẾP SỜ CHẠM APP
+    - NGƯỜI DÙNG GIÁN TIẾP LÀ NGƯỜI KO TRỰC TIẾP SỜ CHẠM APP NHƯNG CẦN INFO TỪ APP
+							        ĐỂ RA QUYẾT ĐỊNH: THƯỜNG LÀ CÁC SẾP!!! BẮT LĨNH TỔNG HỢP INFO VÀ BÁO CÁO!!!
+	VÍ DỤ: TUI BẠN LÀ DIRECT USER CỦA FAP, EOS
+	       BAN GIÁM HIỆU, THẦY HIỆU TRƯỞNG - IN DIRECT USER - CẦN INFO TỪ APP VÀ LÍNH LẤY CHO 
+	[ĐỪNG GẮN, ĐÁNH ĐỒNG QUYỀN LỰC LÃNH ĐẠO NGOÀI ĐỜI VÀ QUYỀN QUẢN LÍ DATA TRONG APP]
+	BẮT CHỦ SHOP, HIỆU TRƯỞNG, GIÁM ĐỐC LÀM ADMIN - ĂN ĐÒN
+
+- USER PERSONA: CHÂN DUNG NGƯỜI DÙNG - "NGƯỜI DÙNG ẢO, NGƯỜI DÙNG GIẢ"
+  - CHỈ ÁP DỤNG KHÁI NIỆM NÀY CHO APP START UP, CHO CÔNG TY CHUYÊN LÀM START UP, CHO CÔNG TY CHUYÊN LÀM PRODUCT
+  - LÀM APP BÁN CHO BÁ TANH DÙNG
+  - KO XUẤT HIỆN Ở MÔ HÌNH CTY DẠNG NHÀ EM 3 ĐỜI LÀM THUÊ APP
+  - CHỈ ÁP DỤNG KHÁI NIỆM NÀY CHO APP START UP
+	CHO CÔNG TY CHUYÊN LÀM PRODUCT - LÀM APP BÁN CHO BÁ TÁNH NGƯỜI DÙNG
+  - HAY DÙNG NHIỀU NHẤT TRONG KHỐI NGHÀNH KINH TẾ, KHI DÂN KINH TẾ DỰ KIẾN "BỊA RA" 1 SẢN PHẨM TUNG RA THỊ TRƯỜNG. DĨ NHIÊN VẪN DÙNG CHO CTY PRODUCT
+  TRONG LĨNH VỰC PHẦN MỂM 
+  - HAY DÙNG BỞI NHÓM MARKETING, MARKET SEARCH - NHÓM TÌM HIỂU THỊ TRƯỜNG
+  - VÌ APP SẼ LÀM, HAY SẢN PHẨM DỰ KIẾN CHO BÁ TÁNH DÙNG
+  BÁ TÁNH LÀ BẤT KÌ AI NGOÀI XÃ HỘI -> TA KO CÓ AI ĐÓ CỤ THỂ ĐỂ ĐẶT HÀNG
+  TA HY VỌNG THIÊN HẠ ĐẶT HÀNG MUA S / P CỦA TA
+  [KHÁC VỚI APP LÀM THEO ĐẶT HÀNG CỦA CTY NÀO ĐÓ, APP BV CHỢ RẪY BIẾT NGAY BÁC SĨ DÙNG]
+  - TA LÀM 1 CÁI GAME ĐỘC ĐÁO NÀO ĐÓ, TOOL, ĐỘC ĐÁO NÀO ĐÓ, TA PHẢI ĐOÁN THỊ TRƯỜNG ĐOÁN NGƯỜI DÙNG!!!
+
+ TA ĐI KHẢO SÁT KHÉO LÉO, TA NGÓ ĐỐI THỦ, TA RA XÃ HỘI QUAN SÁT GHI CHÉP
+ -> TA VỀ DỰNG RA 1 HỒ SƠ GIẢ / 1 CON NGƯỜI GIẢ ĐẠI DIỆN CHO NHÓM USER APP TA HƯỚNG TỚI
+ USER GIẢ NÀY CÓ: TÊN, TUỔI, NGHỀ NGHIỆP MỨC THU NHẬP, THÓI QUEN, KHẢ NĂNG XÀI CÔNG NGHỆ.... -> CÓ USER GIẢ NÀY DEV TEAM DỄ DÀNG HÌNH DUNG RA CÁI NHU CẦU CỦA USER NÀY
+ ĐỒNG THỜI LÀ USER ĐẠI DIỆN CHO NHÓM NGƯỜI DÙNG APP NHẮM TỚI
+ -> USER GIẢ NÀY GIÚP DEV TEAM DỄ DÀNG HÌNH DUNG VỀ NHỮNG NGƯỜI CỤ THỂ SAU NÀY SẼ CHƠI APP CHÚNG TA!! > DỄ CHO DEV TEAM
+ ĐỒNG CẢM VỚI USER NÀY ĐỂ ĐỀ RA TÍNH NĂNG, BỊA THÊM TÍNH NĂNG PHÙ HỢP
+
+ > HỒ SƠ GIẢ NÀY GỌI LÀ USER PERONAS
+ =========================================================================================
+ VII. CÁC CÔNG VIỆC, HOẠT ĐỘNG MÀ DÂN BA / PO SẼ LÀM LIÊN QUAN ĐẾN VIỆC TÌM RA YÊU CẦU PHẦN MỀM 
+    * REQUIREMENTS ENGINEERING activities
+1. REQUIREMENTS DEVELOPMENT - ĐI TÌM RA REQS!!!!!!!!!!!!!!!!
+  ĐI TÌM REQS CHIA THÀNH 4 NHÓM CÔNG VIỆC NHỎ HƠN
+  1.1. ELICITATION !!!!!!!!!!!!!!!!!!!!!
+       QUAN TRỌNG NHẤT: LÀM VIỆC VỚI KHÁCH HÀNG, VỚI BÁ TÁNH, VỚI USER PERSONAS ĐỂ TÌM RA REQUIREMENTS (FUNCTIONAL REQS VÀ NONFUNCTIONAL REQS)
+	   DÂN BA PO CÓ BAO NHIÊU NGÔN NGHỀ DÙNG Ở GIAI ĐOẠN NÀY !!!
+  1.2. ANALYSIS
+		SAU KHI LÀM VIỆC VỚI KHÁCH HÀNG, TA ĐÃ HIỂU ĐƯỢC MONG ƯỚC CỦA HỌ VỀ APP SẼ LÀM, TA CÂN NHẮC, TÍNH TOÁN CÁC PHƯƠNG ÁN, 
+		VÍ DỤ:
+		 - LÀM CẢ MOBILE VÀ WEB APP HAY 1 TRONG 2
+		 - TÁCH RIÊNG TỪNG ROLE TỪNG APP HAY KO (VÍ DỤ: APP GRAB FOOD, ĐẶT ĐỒ ĂN,
+		 										 CÓ 3 APP
+												 - APP DÀNH CHO NGƯỜI MUA
+												 - APP DÀNH CHO CHỦ SHOP
+												 - APP DÀNH CHO SÀN, CHỦ APP)
+		 - TÍCH HỢP THNAH TOÁN GIAO VẬN: KĨ NĂNG TƯ DUY HỆ THỐNG
+		 - KIẾN TRÚC PHẦN MỀM, VÀ TÍNH TÍCH HỢP 
+  1.3. SPECIFICATION --> SRS, FRS VIẾT RA CÁI DOCUMENT CHUẨN ĐẸP: SRS, FRS
+					     CHUẨN DOCUMENT: IEEE - 830 (1/2 CUỐN ĐỒ ÁN TỐT NGHIỆP TRƯỜNG F)
+						 [TEST CASE SWT301: IEEE-829]
+
+  1.4. VALIDATION -> DÂN BA MỜI DÂN QC / TESTER VÀO REVIEW DOCUMENT, REQS THEO NGUYÊN LÝ EARLY TESTING (3 / 7)
+				  -> STATIC TESTING - KIỂM THỬ "APP" MÀ KO CHẠY APP!!!
+				  NGƯỢC LẠI VỚI DYNAMIC TESTING: MỞ APP RUN TÌM BUG NẾU CÓ
+
+
+2. REQUIREMENTS MANAGEMENT - QUẢN LÍ CÁC REQUIREMENTS
+
+3. 
+
+=========================================================================================
+DÂN BA / PO ÁP DỤNG CÁC KĨ THUẬT ĐỂ TÌM RA REQS (ELICITATION, GATHEING)
+10 KĨ THUẬT NỔI TIẾNG
+>>>>>>> 1. INTERVIEWING: PHỎNG VẤN TRỰC TIẾP USER / CUSTOMER
+>>>>>>> 2. WORKSHOP
+>>>>>>> 3. FOCUS-GROUP
+>>>>>>> 4. QUESTIONAIR / SURVAY!!!!!!!!!!!!!!!!!!!!!! APP PRODUCT
+>>>>>>> 5. OBSERVATION / ETHNOGRAPHY
+>>>>>>> 6. DOCUMENT COLLECTION
+>>>>>>> 7. USER INTERFACE ANALYSIS
+>>>>>>> 8. SYSTEM INTERFACE ANALYSIS
+>>>>>>> 9. PROTOTYPING
+>>>>>>> 10. BRAIN STORMING
+>>>>>>>...
+>>>>>>50.
+>>>>>>>>>>>>>>> KĨ THUẬT / TIPS LÀM VIỆC VỚI USER / CUSTOMERS, BÁ TÁNH 
+3 GÓC NHÌN VỀ APP
+3 NHÓM CÂU HỎI THƯỜNG DÙNG
+
+3 GÓC NHÌN (VIEW) VỀ APP: WHY, WHAT, WHO
+  - WHY? TẠI SAO LẠI LÀM APP
+         TÙY LOẠI APP THÌ SẼ CÓ NGƯỜI ĐẶT RA CÂU HỎI NÀY, VÀ CÓ NGƯỜI CẦN TRẢ LỜI
+		 - NẾU LÀ APP LÀM THEO ĐẶT HÀNG, CHÍNH KHÁCH HÀNG PHẢI TRẢ LỜI CÂU HỎI NÀY
+		   > LÀM APP VÌ GIÚP CHO HOẠT ĐỘNG CTY TRỞ NÊN HIỆU QUẢ
+		 - NẾU APP LÀM CHO BÁ TÁNH XÀI, BỊA RA APP 
+		   > LÀM APP VÌ MỤC TIÊU MUỐN CHINH PHỤC THỊ TRƯỜNG, VÀ KIẾM TIỀN NHIỀU
+  - WHAT: APP CÓ MÀN HÌNH GÌ, TÍNH NĂNG GÌ, CHỨC NĂNG GÌ
+          FUNCTIONAL REQS VS NON-FUNCTIONAL REQS
+		  USER STORY
+  - WHO: AI (CON NGƯỜI NÀO), THIẾT BỊ GÌ (dev1ce), HỆ THỐNG NÀO KHÁC CÙNG THAM GIA VÀO VIỆC VẬN HÀNH APP, ĐỂ APP
+  HOẠT ĐỘNG NHƯ THIẾT KẾ CHO K / H
+
+3 CÂU HỎI DÂN BA HAY DÙNG KHI LÀM VIỆC VỚI KHÁCH HÀNG:
+>>>>> Q1: VIẾT APP CHO AI DÙNG???
+>>>>> Q2: AI ĐÓ CẦN NHỮNG MÀN HÌNH GÌ>>>
+>>>>> Q3: NHỮNG DATA, INFO NÀO CẦN LƯU TRỮ VÀ XỬ LÍ???
+
+=====================================================================================================
+CASE STUDY: APP QUẢN LÍ QUÁN CAFE THÚ CƯNG | APP PET CARE  |  APP PET SHOP
+1. APP VIẾT CHO AI DÙNG??? LÀM VIỆC VỚI CHỦ QUÁN ĐỂ TRẢ LỜI ĐC CÂU NÀY???
+- CHỦ QUÁN
+- THU NGÂN = CASHIER
+- CUSTOMER
