@@ -218,7 +218,7 @@ VÍ DỤ 2:
 		  CẢM BIẾN VẬT CẢN XỬ LÍ ĐỦ NHANH
 - APP TMĐT: FOCUS VÀO NGHIỆP VỤ BÁN HÀNG, TÍNH TOÁN BILL (VOUCHER)
 - TEST TRÊN ANDRIOID KHÁC TEST TRÊN IOS: DO ĐẶC TRƯNG HỆ ĐIỀU HÀNH IOS GẮT VỀ TRUY XUẤT HỆ THỐNG HƠN SO VỚI ANDROID
-7. ABSENCE OF ERRORS FALLACY - NHẬN ĐỊNH SAI LẦM VỀ APP "HẾT" BUG
+7. ABSENCE OF ERRORS IS A FALLACY - NHẬN ĐỊNH SAI LẦM VỀ APP "HẾT" BUG
 		( absence of, free of: ko có )
 					free of charge: ko tốn phí, miễn phí
  ẢO TƯỞNG VỀ APP "KO CÓ BUG"
@@ -572,3 +572,59 @@ IV. NHÓM LỆNH HUYỀN THOẠI, XÀI MỖI LẦN MÚN ĐỒNG BỘ CODE
 git add *
 git commit -m "lí do sửa code, sửa code gì???"
 git push
+===========================================================================================================================
+NHẬP MÔN CI - CONTINUOUS INTEGRATION - TÍCH HỢP LIÊN TỤC 
+(CI / CD / DEVOPS -> LƯƠNG ÍT NHẤT TỪ 2000$ / MONTH
+HỌC CHỨNG CHỈ ĐỂ CÓ LƯƠNG CAO!!!)
+
+- LÀ KĨ THUẬT TỰ ĐỘNG HÓA QUÁ TRÌNH KIỂM THỬ CODE ĐỂ ĐẢM BẢO CODE TRÊN SERVER LUÔN Ở TRẠNG THÁI MÀU XANH. 
+(SERVER LÀ NƠI CHỨA CODE CHUNG CỦA CẢ TEAM, CODE Ở SERVER PHẢI NGON, NGHĨA LÀ CÁC HÀM PHẢI NGON, NGHĨA LÀ CÁC HÀM PHẢI ĐC TEST
+CODE LUÔN PHẢI THEO STYLE TDD, DDT)
+
+LÀ QUÁ TRÌNH KIỂM THỬ CODE MỖI KHI CODE ĐƯỢC ĐƯA LÊN SEVER
+(ĐƯA CODE LÊN SERVER - (LỆNH PUSH) CHÍNH LÀ QUÁ TRÌNH CODE ĐƯỢC TÍCH HỢP VỚI CODE CŨ ĐANG CÓ TRÊN SERVER, CODE MỚI VÀO Ở CHUNG VỚI CODE CŨ, LIỆU CÓ ỔN KO, CODE MỚI + CŨ CẦN ĐC TEST LIÊN TỤC KHI SERVER CÓ AI ĐÓ SỬA CODE, UP CODE -> QUÁ TRÌNH GOM CODE Ở SERVER LIÊN TỤC ĐC KIỂM TRA CHẤT LƯỢNG -> TÍCH HỢP (CODE) LIÊN TUC ĐC KIỂM TRA CHẤT LƯỢNG CI - CONTINUOUS INTERGRATION 
+- ĐỂ CHƠI ĐC CI TA CẦN:
+  - SOURCE DỰ ÁN - CODE CHÍNH (HIỂN NHIÊN) 
+  - CODE TDD / HDT - CODE DÙNG ĐỂ TEST CODE CHÍNH (JUNIT, TESTING)
+  - CẦN 1 SERVER ĐỂ CHỨA CODE DỰ ÁN - GITHUB, GITLAB, BITBUCKET
+  KHI ĐƯA CODE LÊN, TỚI CÔNG CHUYỆN RỒI,... KIỂM TRA CODE ĐÃ 
+  - * CẦN 1 APP / TOOL ĐẶC BIỆT ĐC GỌI LÀ CI TOOL
+	- JENKINS ************
+	- BAMBOO CI
+        - TRAVIS CI
+  	- CIRCLE CI
+        - TEAM CITY CI (ANH EM VỚI JIRA, TRELLO, SOURCE TREE)
+KỊCH BẢN NHƯ SAU: HOÀN TOÀN TỰ ĐỘNG BẰNG TOOL
+		  GÃ TRONG TEAM SE SUỐT NGÀY NGỒI GÕ MẤY LỆNH CHO SỬA LỆNH ĐỂ TOOL CI LÀM ĐÚNG Ý ĐỒ
+		  GÃ HÀNH NGHỀ CI / CD / DEVOPS 
+GITHUB CHẾ RA TOOL CI LUÔN !! Ý ĐỊNH SOÁN NGÔI CÁC TOOL Ở TRÊN
+			> GITHUB ACTIONS RA ĐỜI, 1 CI TOOL
+
+AE DEV CODE -------------------------------> PUSH CODE    ---------------------------- CI TOOL LẮNG NGHE
+Ở MÁY LOCAL				     LÊN GITHUB				       THẤY SERVER CÓ THAY ĐỔI 
+					     SERVER				       CODE, CI TOOL ĐI GỌI NGAY MVN, NPM, DOTNET ĐỂ BUILD THỬ 
+										       CODE, RUN THỬ UNIT TEST CODE
+										       CODE
+										       TEST BỊ ĐỎ   | TEST MÀU XANH
+------------------------												      .JAR .WAR .DLL
+   TỰ ĐỘNG GỬI MAIL CHỬI DEL										 |
+													 |
+													 V
+											ĐƯA APP SANG SERVER KHÁC ĐỂ QC TEST
+											> STAGING SERVER SERVER CỦA RIÊNG DÂN QC
+													 |
+													 V
+											ĐẨY SANG SERVER KHÁCH HÀNG
+											PRODUCTION SERVER
+											GO-LIVE SERVER
+ ĐỂ CI TOOL CÓ THỂ TỰ ĐỘNG HÓA TOÀN BỘ CÁC CÔNG VIỆC: LẤY CODE, BIÊN DỊCHM CHẠY TEST, ĐÓNG GÓI VIẾT MAIL CHỬI, DEPLOY TRÊN SERVER...
+  > CÁC CÔNG VIỆC NÀY CẦN ĐC VIẾT RA TRONG 1 TẬP DẠNG .TEXT CHỨA LỆNH QUY ƯỚC TRƯỚC MÀ TOOL CÓ THỂ HIỂU ĐC, TOOL CỨ THẾ LÀM THEO
+  > TẬP TIN NÀY GHI THEO CÚ PHÁP RIÊNG, CI TOOL MỚI ĐỌC VÀ HIỂU ĐƯỢC
+  > TẬP TIN NÀY ĐỂ NGAY TRONG REPO CỦA MÌNH ĐỂ
+  ĐỂ KHI AI ĐÓ PUSH CODE LÊN, TẬP TIN ĐC RUN LIỀN TRONG ĐÚNG DỰ ÁN
+							BUILD ĐÚNG SOURCE
+  > TẬP TIN NÀY CÓ ĐUÔI MỞ RỘNG LÀ: .YAML, .YML (VSCODE HIỂU CÚ PHÁP LUÔN)
+				   "ZA MỒ"
+  > CÚ PHÁP TẬP TIN NÀY, LỆNH TRONG TẬP TIN NÀY 
+    THỤT RA THỤT VÔ, LỆNH THỤT RA LÀ LỆNH CHÍNH
+		     LỆNH THỤT VÔ LÀ LỆNH CON
